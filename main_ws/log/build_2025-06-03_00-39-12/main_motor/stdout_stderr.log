@@ -1,0 +1,69 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found serial: 1.2.1 (/home/main/main_ws/install/share/serial/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/main/main_ws/build/main_motor
+[35m[1mConsolidate compiler generated dependencies of target main_run_node[0m
+[35m[1mConsolidate compiler generated dependencies of target send_arduino_node[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/main_run_node.dir/src/main_run.cpp.o[0m
+[ 66%] Built target send_arduino_node
+[01m[K/home/main/main_ws/src/main_motor/src/test.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_time[m[K’ does not name a type
+   62 |     [01;31m[Kstart_time[m[K = this->now();
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/main/main_ws/src/main_motor/src/test.cpp:78:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   78 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/main/main_ws/src/main_motor/src/test.cpp:[m[K In constructor ‘[01m[KTestNode::TestNode()[m[K’:
+[01m[K/home/main/main_ws/src/main_motor/src/test.cpp:7:34:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::Duration::Duration()[m[K’ is private within this context
+    7 |     TestNode() : Node("test_node"[01;31m[K)[m[K
+      |                                  [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:151:3:[m[K [01;36m[Knote: [m[Kdeclared private here
+  151 |   [01;36m[KDuration[m[K() = default;
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/main/main_ws/src/main_motor/src/test.cpp:50:24:[m[K [01;31m[Kerror: [m[K‘[01m[KMainRunNode[m[K’ has not been declared
+   50 |             std::bind(&[01;31m[KMainRunNode[m[K::timerCallback, this));
+      |                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:[m[K In member function ‘[01m[Kvoid MainRunNode::webDataCallback(std_msgs::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:146:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  146 |     void webDataCallback([01;35m[Kconst std_msgs::msg::Int64::SharedPtr msg[m[K)
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/test_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 83%] [32m[1mLinking CXX executable main_run_node[0m
+[ 83%] Built target main_run_node
+gmake: *** [Makefile:146: all] Error 2

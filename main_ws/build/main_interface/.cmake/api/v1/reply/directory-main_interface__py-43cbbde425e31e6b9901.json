@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "main_interface__py",
+		"source" : "/home/main/main_ws/build/main_interface/main_interface__py"
+	}
+}

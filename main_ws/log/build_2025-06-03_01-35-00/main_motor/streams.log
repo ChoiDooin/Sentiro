@@ -1,0 +1,18 @@
+[0.042s] Invoking command in '/home/main/main_ws/build/main_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[0.095s] [ 66%] Built target send_arduino_node
+[0.096s] [ 66%] Built target main_run_node
+[0.103s] [ 83%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test.cpp.o[0m
+[1.651s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:[m[K In member function ‘[01m[Kvoid TestNode::timerCallback()[m[K’:
+[1.651s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:68:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_step[m[K’ was not declared in this scope; did you mean ‘[01m[Kserial_port_1[m[K’?
+[1.651s]    68 |             [01;31m[Kserial_step[m[K = "9\n";
+[1.651s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.652s]       |             [32m[Kserial_port_1[m[K
+[1.655s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:76:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_step[m[K’ was not declared in this scope; did you mean ‘[01m[Kserial_port_1[m[K’?
+[1.655s]    76 |             serial_port_2.write([01;31m[Kserial_step[m[K);
+[1.655s]       |                                 [01;31m[K^~~~~~~~~~~[m[K
+[1.655s]       |                                 [32m[Kserial_port_1[m[K
+[1.921s] gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test.cpp.o] Error 1
+[1.921s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/test_node.dir/all] Error 2
+[1.921s] gmake: *** [Makefile:146: all] Error 2
+[1.923s] Invoked command in '/home/main/main_ws/build/main_motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16

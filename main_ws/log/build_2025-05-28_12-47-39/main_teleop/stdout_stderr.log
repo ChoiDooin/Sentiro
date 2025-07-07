@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/main_teleop/main_teleop.egg-info
+writing ../../build/main_teleop/main_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/main_teleop/main_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/main_teleop/main_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/main_teleop/main_teleop.egg-info/requires.txt
+writing top-level names to ../../build/main_teleop/main_teleop.egg-info/top_level.txt
+writing manifest file '../../build/main_teleop/main_teleop.egg-info/SOURCES.txt'
+reading manifest file '../../build/main_teleop/main_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../build/main_teleop/main_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/main/main_ws/build/main_teleop/build
+creating /home/main/main_ws/build/main_teleop/build/lib
+creating /home/main/main_ws/build/main_teleop/build/lib/main_teleop
+copying main_teleop/__init__.py -> /home/main/main_ws/build/main_teleop/build/lib/main_teleop
+creating /home/main/main_ws/build/main_teleop/build/lib/main_teleop/script
+copying main_teleop/script/teleop_keyboard.py -> /home/main/main_ws/build/main_teleop/build/lib/main_teleop/script
+copying main_teleop/script/__init__.py -> /home/main/main_ws/build/main_teleop/build/lib/main_teleop/script
+copying main_teleop/script/teleop_joy.py -> /home/main/main_ws/build/main_teleop/build/lib/main_teleop/script
+running install
+running install_lib
+creating /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop
+copying /home/main/main_ws/build/main_teleop/build/lib/main_teleop/__init__.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop
+creating /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop/script
+copying /home/main/main_ws/build/main_teleop/build/lib/main_teleop/script/teleop_keyboard.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop/script
+copying /home/main/main_ws/build/main_teleop/build/lib/main_teleop/script/__init__.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop/script
+copying /home/main/main_ws/build/main_teleop/build/lib/main_teleop/script/teleop_joy.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop/script
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop/script/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop/script/teleop_joy.py to teleop_joy.cpython-310.pyc
+running install_data
+copying resource/main_teleop -> /home/main/main_ws/install/share/ament_index/resource_index/packages
+copying package.xml -> /home/main/main_ws/install/share/main_teleop
+creating /home/main/main_ws/install/share/main_teleop/launch
+copying launch/teleop_joy.launch.py -> /home/main/main_ws/install/share/main_teleop/launch
+creating /home/main/main_ws/install/share/main_teleop/param
+copying param/teleop_joy.param.yaml -> /home/main/main_ws/install/share/main_teleop/param
+running install_egg_info
+Copying ../../build/main_teleop/main_teleop.egg-info to /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop-2.1.2-py3.10.egg-info
+running install_scripts
+Installing teleop_joy script to /home/main/main_ws/install/lib/main_teleop
+Installing teleop_keyboard script to /home/main/main_ws/install/lib/main_teleop
+writing list of installed files to '/home/main/main_ws/build/main_teleop/install.log'

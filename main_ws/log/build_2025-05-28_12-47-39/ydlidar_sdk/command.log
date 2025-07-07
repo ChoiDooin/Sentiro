@@ -1,0 +1,6 @@
+Invoking command in '/home/main/main_ws/build/ydlidar_sdk': /usr/bin/cmake /home/main/main_ws/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/main/main_ws/install
+Invoked command in '/home/main/main_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake /home/main/main_ws/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/main/main_ws/install
+Invoking command in '/home/main/main_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/main/main_ws/build/ydlidar_sdk -- -j16 -l16
+Invoked command in '/home/main/main_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/main/main_ws/build/ydlidar_sdk -- -j16 -l16
+Invoking command in '/home/main/main_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/main/main_ws/build/ydlidar_sdk
+Invoked command in '/home/main/main_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/main/main_ws/build/ydlidar_sdk

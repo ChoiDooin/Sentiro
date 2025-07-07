@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target main_run_node[0m
+[ 33%] Built target test_node
+[ 66%] Built target send_arduino_node
+[ 83%] [32mBuilding CXX object CMakeFiles/main_run_node.dir/src/main_run.cpp.o[0m

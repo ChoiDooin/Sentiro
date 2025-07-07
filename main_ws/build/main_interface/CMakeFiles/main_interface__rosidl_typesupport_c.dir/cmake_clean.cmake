@@ -1,0 +1,27 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/main_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/main_interface/srv/battery__type_support.cpp.o"
+  "CMakeFiles/main_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/main_interface/srv/battery__type_support.cpp.o.d"
+  "CMakeFiles/main_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/main_interface/srv/calg__type_support.cpp.o"
+  "CMakeFiles/main_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/main_interface/srv/calg__type_support.cpp.o.d"
+  "CMakeFiles/main_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/main_interface/srv/color__type_support.cpp.o"
+  "CMakeFiles/main_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/main_interface/srv/color__type_support.cpp.o.d"
+  "CMakeFiles/main_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/main_interface/srv/onoff__type_support.cpp.o"
+  "CMakeFiles/main_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/main_interface/srv/onoff__type_support.cpp.o.d"
+  "CMakeFiles/main_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/main_interface/srv/reset_odom__type_support.cpp.o"
+  "CMakeFiles/main_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/main_interface/srv/reset_odom__type_support.cpp.o.d"
+  "CMakeFiles/main_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/main_interface/srv/save_color__type_support.cpp.o"
+  "CMakeFiles/main_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/main_interface/srv/save_color__type_support.cpp.o.d"
+  "libmain_interface__rosidl_typesupport_c.pdb"
+  "libmain_interface__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/main_interface/srv/battery__type_support.cpp"
+  "rosidl_typesupport_c/main_interface/srv/calg__type_support.cpp"
+  "rosidl_typesupport_c/main_interface/srv/color__type_support.cpp"
+  "rosidl_typesupport_c/main_interface/srv/onoff__type_support.cpp"
+  "rosidl_typesupport_c/main_interface/srv/reset_odom__type_support.cpp"
+  "rosidl_typesupport_c/main_interface/srv/save_color__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/main_interface__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

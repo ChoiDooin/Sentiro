@@ -1,0 +1,47 @@
+[0.916s] Invoking command in '/home/main/main_ws/src/main_teleop': PYTHONPATH=/home/main/main_ws/build/main_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_teleop build --build-base /home/main/main_ws/build/main_teleop/build install --record /home/main/main_ws/build/main_teleop/install.log --single-version-externally-managed install_data
+[1.172s] running egg_info
+[1.173s] creating ../../build/main_teleop/main_teleop.egg-info
+[1.174s] writing ../../build/main_teleop/main_teleop.egg-info/PKG-INFO
+[1.174s] writing dependency_links to ../../build/main_teleop/main_teleop.egg-info/dependency_links.txt
+[1.174s] writing entry points to ../../build/main_teleop/main_teleop.egg-info/entry_points.txt
+[1.174s] writing requirements to ../../build/main_teleop/main_teleop.egg-info/requires.txt
+[1.174s] writing top-level names to ../../build/main_teleop/main_teleop.egg-info/top_level.txt
+[1.175s] writing manifest file '../../build/main_teleop/main_teleop.egg-info/SOURCES.txt'
+[1.176s] reading manifest file '../../build/main_teleop/main_teleop.egg-info/SOURCES.txt'
+[1.177s] writing manifest file '../../build/main_teleop/main_teleop.egg-info/SOURCES.txt'
+[1.177s] running build
+[1.177s] running build_py
+[1.177s] creating /home/main/main_ws/build/main_teleop/build
+[1.178s] creating /home/main/main_ws/build/main_teleop/build/lib
+[1.178s] creating /home/main/main_ws/build/main_teleop/build/lib/main_teleop
+[1.178s] copying main_teleop/__init__.py -> /home/main/main_ws/build/main_teleop/build/lib/main_teleop
+[1.178s] creating /home/main/main_ws/build/main_teleop/build/lib/main_teleop/script
+[1.178s] copying main_teleop/script/teleop_keyboard.py -> /home/main/main_ws/build/main_teleop/build/lib/main_teleop/script
+[1.178s] copying main_teleop/script/__init__.py -> /home/main/main_ws/build/main_teleop/build/lib/main_teleop/script
+[1.178s] copying main_teleop/script/teleop_joy.py -> /home/main/main_ws/build/main_teleop/build/lib/main_teleop/script
+[1.178s] running install
+[1.178s] running install_lib
+[1.179s] creating /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop
+[1.179s] copying /home/main/main_ws/build/main_teleop/build/lib/main_teleop/__init__.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop
+[1.179s] creating /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop/script
+[1.179s] copying /home/main/main_ws/build/main_teleop/build/lib/main_teleop/script/teleop_keyboard.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop/script
+[1.179s] copying /home/main/main_ws/build/main_teleop/build/lib/main_teleop/script/__init__.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop/script
+[1.180s] copying /home/main/main_ws/build/main_teleop/build/lib/main_teleop/script/teleop_joy.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop/script
+[1.180s] byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop/__init__.py to __init__.cpython-310.pyc
+[1.180s] byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[1.181s] byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop/script/__init__.py to __init__.cpython-310.pyc
+[1.182s] byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop/script/teleop_joy.py to teleop_joy.cpython-310.pyc
+[1.183s] running install_data
+[1.183s] copying resource/main_teleop -> /home/main/main_ws/install/share/ament_index/resource_index/packages
+[1.183s] copying package.xml -> /home/main/main_ws/install/share/main_teleop
+[1.183s] creating /home/main/main_ws/install/share/main_teleop/launch
+[1.183s] copying launch/teleop_joy.launch.py -> /home/main/main_ws/install/share/main_teleop/launch
+[1.183s] creating /home/main/main_ws/install/share/main_teleop/param
+[1.183s] copying param/teleop_joy.param.yaml -> /home/main/main_ws/install/share/main_teleop/param
+[1.183s] running install_egg_info
+[1.185s] Copying ../../build/main_teleop/main_teleop.egg-info to /home/main/main_ws/install/lib/python3.10/site-packages/main_teleop-2.1.2-py3.10.egg-info
+[1.186s] running install_scripts
+[1.205s] Installing teleop_joy script to /home/main/main_ws/install/lib/main_teleop
+[1.205s] Installing teleop_keyboard script to /home/main/main_ws/install/lib/main_teleop
+[1.205s] writing list of installed files to '/home/main/main_ws/build/main_teleop/install.log'
+[1.253s] Invoked command in '/home/main/main_ws/src/main_teleop' returned '0': PYTHONPATH=/home/main/main_ws/build/main_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_teleop build --build-base /home/main/main_ws/build/main_teleop/build install --record /home/main/main_ws/build/main_teleop/install.log --single-version-externally-managed install_data

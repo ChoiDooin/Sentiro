@@ -1,0 +1,6 @@
+/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface:srv/Battery.idl
+/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface:srv/Calg.idl
+/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface:srv/Color.idl
+/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface:srv/Onoff.idl
+/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface:srv/ResetOdom.idl
+/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface:srv/SaveColor.idl

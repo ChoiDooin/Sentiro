@@ -1,0 +1,6 @@
+Invoking command in '/home/main/main_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/main/main_ws/src/serial-ros2 -DCMAKE_INSTALL_PREFIX=/home/main/main_ws/install
+Invoked command in '/home/main/main_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/main/main_ws/src/serial-ros2 -DCMAKE_INSTALL_PREFIX=/home/main/main_ws/install
+Invoking command in '/home/main/main_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/serial -- -j16 -l16
+Invoked command in '/home/main/main_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/serial -- -j16 -l16
+Invoking command in '/home/main/main_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/serial
+Invoked command in '/home/main/main_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/serial

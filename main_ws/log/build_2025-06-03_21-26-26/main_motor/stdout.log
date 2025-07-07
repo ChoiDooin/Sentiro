@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target main_run_node[0m
+[ 33%] Built target test_node
+[ 66%] Built target send_arduino_node
+[ 83%] [32mBuilding CXX object CMakeFiles/main_run_node.dir/src/main_run.cpp.o[0m
+[100%] [32m[1mLinking CXX executable main_run_node[0m
+[100%] Built target main_run_node
+-- Install configuration: ""
+-- Up-to-date: /home/main/main_ws/install/lib/main_motor/send_arduino_node
+-- Installing: /home/main/main_ws/install/lib/main_motor/main_run_node
+-- Set runtime path of "/home/main/main_ws/install/lib/main_motor/main_run_node" to ""
+-- Up-to-date: /home/main/main_ws/install/lib/main_motor/test_node
+-- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/package_run_dependencies/main_motor
+-- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/parent_prefix_path/main_motor
+-- Up-to-date: /home/main/main_ws/install/share/main_motor/environment/ament_prefix_path.sh
+-- Up-to-date: /home/main/main_ws/install/share/main_motor/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/main/main_ws/install/share/main_motor/environment/path.sh
+-- Up-to-date: /home/main/main_ws/install/share/main_motor/environment/path.dsv
+-- Up-to-date: /home/main/main_ws/install/share/main_motor/local_setup.bash
+-- Up-to-date: /home/main/main_ws/install/share/main_motor/local_setup.sh
+-- Up-to-date: /home/main/main_ws/install/share/main_motor/local_setup.zsh
+-- Up-to-date: /home/main/main_ws/install/share/main_motor/local_setup.dsv
+-- Installing: /home/main/main_ws/install/share/main_motor/package.dsv
+-- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/packages/main_motor
+-- Up-to-date: /home/main/main_ws/install/share/main_motor/cmake/main_motorConfig.cmake
+-- Up-to-date: /home/main/main_ws/install/share/main_motor/cmake/main_motorConfig-version.cmake
+-- Up-to-date: /home/main/main_ws/install/share/main_motor/package.xml

@@ -1,0 +1,38 @@
+[01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:[m[K In member function ‘[01m[Kvoid MainRunNode::webDataCallback(std_msgs::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:153:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  153 |     void webDataCallback([01;35m[Kconst std_msgs::msg::Int64::SharedPtr msg[m[K)
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:1[m[K:
+[01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:[m[K In member function ‘[01m[Kvoid MainRunNode::timerCallback()[m[K’:
+[01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:313:156:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+  313 |             RCLCPP_INFO(this->get_logger(), "Serial step: %d, Step: %d, Cam distance: %f, Linear vel: %f, Angular vel: %f, person_recog: %d", serial_step, [01;31m[Ks[m[K't'ep_, cam_distance, pub_linear_x, pub_angular_z, person_recog);
+      |                                                                                                                                                            [01;31m[K^[m[K
+[01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:327:156:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+  327 |             RCLCPP_INFO(this->get_logger(), "Serial step: %d, Step: %d, Cam distance: %f, Linear vel: %f, Angular vel: %f, person_recog: %d", serial_step, [01;31m[Ks[m[K't'ep_, cam_distance, pub_linear_x, pub_angular_z, person_recog);
+      |                                                                                                                                                            [01;31m[K^[m[K
+[01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:346:156:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+  346 |             RCLCPP_INFO(this->get_logger(), "Serial step: %d, Step: %d, Cam distance: %f, Linear vel: %f, Angular vel: %f, person_recog: %d", serial_step, [01;31m[Ks[m[K't'ep_, cam_distance, pub_linear_x, pub_angular_z, person_recog);
+      |                                                                                                                                                            [01;31m[K^[m[K
+[01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:360:156:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+  360 |             RCLCPP_INFO(this->get_logger(), "Serial step: %d, Step: %d, Cam distance: %f, Linear vel: %f, Angular vel: %f, person_recog: %d", serial_step, [01;31m[Ks[m[K't'ep_, cam_distance, pub_linear_x, pub_angular_z, person_recog);
+      |                                                                                                                                                            [01;31m[K^[m[K
+[01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:448:36:[m[K [01;31m[Kerror: [m[Kunable to find character literal operator ‘[01m[Koperator""erial_step[m[K’ with ‘[01m[Kchar[m[K’ argument
+  448 |                 prev_serial_step = [01;31m[K's'erial_step[m[K; /'/' 이전 단계 저장
+      |                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:448:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+  448 |                 prev_serial_step = 's'erial_step; [01;31m[K/[m[K'/' 이전 단계 저장
+      |                                                   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/main_run_node.dir/build.make:76: CMakeFiles/main_run_node.dir/src/main_run.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/main_run_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target manual_obstacle_layer[0m
+[100%] Built target manual_obstacle_layer
+-- Install configuration: ""
+-- Up-to-date: /home/main/main_ws/install/share/obstacle_plugin/plugins.xml
+-- Up-to-date: /home/main/main_ws/install/lib/obstacle_plugin/libmanual_obstacle_layer.so
+-- Up-to-date: /home/main/main_ws/install/share/obstacle_plugin/plugins.xml
+-- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/package_run_dependencies/obstacle_plugin
+-- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/parent_prefix_path/obstacle_plugin
+-- Up-to-date: /home/main/main_ws/install/share/obstacle_plugin/environment/ament_prefix_path.sh
+-- Up-to-date: /home/main/main_ws/install/share/obstacle_plugin/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/main/main_ws/install/share/obstacle_plugin/environment/path.sh
+-- Up-to-date: /home/main/main_ws/install/share/obstacle_plugin/environment/path.dsv
+-- Up-to-date: /home/main/main_ws/install/share/obstacle_plugin/local_setup.bash
+-- Up-to-date: /home/main/main_ws/install/share/obstacle_plugin/local_setup.sh
+-- Up-to-date: /home/main/main_ws/install/share/obstacle_plugin/local_setup.zsh
+-- Up-to-date: /home/main/main_ws/install/share/obstacle_plugin/local_setup.dsv
+-- Installing: /home/main/main_ws/install/share/obstacle_plugin/package.dsv
+-- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/packages/obstacle_plugin
+-- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/obstacle_plugin
+-- Up-to-date: /home/main/main_ws/install/share/obstacle_plugin/cmake/obstacle_pluginConfig.cmake
+-- Up-to-date: /home/main/main_ws/install/share/obstacle_plugin/cmake/obstacle_pluginConfig-version.cmake
+-- Up-to-date: /home/main/main_ws/install/share/obstacle_plugin/package.xml

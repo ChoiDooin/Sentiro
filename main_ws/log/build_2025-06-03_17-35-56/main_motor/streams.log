@@ -1,0 +1,20 @@
+[0.052s] Invoking command in '/home/main/main_ws/build/main_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[0.099s] [ 33%] Built target send_arduino_node
+[0.101s] [ 66%] Built target main_run_node
+[0.104s] [ 83%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test.cpp.o[0m
+[1.591s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:[m[K In member function ‘[01m[Kvoid TestNode::timerCallback()[m[K’:
+[1.591s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:80:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kchar[m[K’ in assignment
+[1.591s]    80 |             received1 = [01;31m[Kserial_port_1.readline()[m[K;
+[1.591s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.591s]       |                                               [01;31m[K|[m[K
+[1.591s]       |                                               [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.591s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:87:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kchar[m[K’ in assignment
+[1.591s]    87 |             received2 = [01;31m[Kserial_port_2.readline()[m[K;
+[1.591s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.591s]       |                                               [01;31m[K|[m[K
+[1.591s]       |                                               [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.856s] gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test.cpp.o] Error 1
+[1.857s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/test_node.dir/all] Error 2
+[1.857s] gmake: *** [Makefile:146: all] Error 2
+[1.858s] Invoked command in '/home/main/main_ws/build/main_motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16

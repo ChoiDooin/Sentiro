@@ -1,0 +1,7 @@
+<library path="manual_obstacle_layer">
+    <class name="custom_layers::ManualObstacleLayer"
+           type="custom_layers::ManualObstacleLayer"
+           base_class_type="nav2_costmap_2d::Layer">
+      <description>Manual obstacle layer that marks a given (x,y) region as obstacle via topic.</description>
+    </class>
+  </library>

@@ -1,0 +1,1025 @@
+[0.064s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--merge-install']
+[0.064s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=True, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70e0ae946740>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70e0aeac7ca0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70e0aeac7ca0>>, mixin_verb=('build',))
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.152s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/main/main_ws'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(motor_run_ex) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(motor_run_ex) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(motor_run_ex) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(motor_run_ex) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(motor_run_ex) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(motor_run_ex) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(motor_run_ex) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(motor_run_ex) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(motor_run_ex) by extension 'ros'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(motor_run_ex) by extensions ['cmake', 'python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(motor_run_ex) by extension 'cmake'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(motor_run_ex) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(motor_run_ex) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(motor_run_ex) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ros'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['cmake', 'python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'python'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/YDLidar-SDK' with type 'cmake' and name 'ydlidar_sdk'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_bringup) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_bringup) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_bringup) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_bringup) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_bringup) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_bringup) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_bringup) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_bringup) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/main_bringup' with type 'ros.ament_python' and name 'main_bringup'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_description) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_description) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_description) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_description) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_description) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_description) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_description) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_description) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_description) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/main_description' with type 'ros.ament_cmake' and name 'main_description'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_interface) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_interface) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_interface) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_interface) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_interface) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_interface) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_interface) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_interface) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/main_interface' with type 'ros.ament_cmake' and name 'main_interface'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_motor) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_motor) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_motor) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_motor) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_motor) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_motor) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_motor) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_motor) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_motor) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/main_motor' with type 'ros.ament_cmake' and name 'main_motor'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_teleop) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_teleop) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_teleop) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_teleop) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_teleop) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_teleop) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_teleop) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_teleop) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/main_teleop' with type 'ros.ament_python' and name 'main_teleop'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mqtt' with type 'ros.ament_python' and name 'mqtt'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_plugin) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_plugin) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_plugin) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_plugin) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_plugin) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_plugin) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_plugin) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_plugin) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/obstacle_plugin' with type 'ros.ament_cmake' and name 'obstacle_plugin'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial-ros2' with type 'ros.ament_cmake' and name 'serial'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stella_ahrs' with type 'ros.ament_cmake' and name 'stella_ahrs'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver_bs' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.194s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/main/main_ws/install
+[0.195s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 354 installed packages in /opt/ros/humble
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_description' build argument 'cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_description' build argument 'cmake_target' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.219s] DEBUG:colcon.colcon_core.verb:Building package 'main_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/main/main_ws/build/main_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/main/main_ws/install', 'merge_install': True, 'path': '/home/main/main_ws/src/main_description', 'symlink_install': False, 'test_result_base': None}
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_interface' build argument 'cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_interface' build argument 'cmake_target' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'main_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.219s] DEBUG:colcon.colcon_core.verb:Building package 'main_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/main/main_ws/build/main_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/main/main_ws/install', 'merge_install': True, 'path': '/home/main/main_ws/src/main_interface', 'symlink_install': False, 'test_result_base': None}
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'mqtt' build argument 'cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'mqtt' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'mqtt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'mqtt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'mqtt' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'mqtt' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'mqtt' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'mqtt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'mqtt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'mqtt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/main/main_ws/build/mqtt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/main/main_ws/install', 'merge_install': True, 'path': '/home/main/main_ws/src/mqtt', 'symlink_install': False, 'test_result_base': None}
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'obstacle_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/main/main_ws/build/obstacle_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/main/main_ws/install', 'merge_install': True, 'path': '/home/main/main_ws/src/obstacle_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/main/main_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/main/main_ws/install', 'merge_install': True, 'path': '/home/main/main_ws/src/serial-ros2', 'symlink_install': False, 'test_result_base': None}
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'stella_ahrs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/main/main_ws/build/stella_ahrs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/main/main_ws/install', 'merge_install': True, 'path': '/home/main/main_ws/src/stella_ahrs', 'symlink_install': False, 'test_result_base': None}
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.221s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/main/main_ws/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/main/main_ws/install', 'merge_install': True, 'path': '/home/main/main_ws/src/ydlidar_ros2_driver_bs', 'symlink_install': False, 'test_result_base': None}
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.221s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/main/main_ws/build/ydlidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/main/main_ws/install', 'merge_install': True, 'path': '/home/main/main_ws/src/YDLidar-SDK', 'symlink_install': False, 'test_result_base': None}
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_bringup' build argument 'cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_bringup' build argument 'cmake_target' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.221s] DEBUG:colcon.colcon_core.verb:Building package 'main_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/main/main_ws/build/main_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/main/main_ws/install', 'merge_install': True, 'path': '/home/main/main_ws/src/main_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_motor' build argument 'cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_motor' build argument 'cmake_target' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_motor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_motor' build argument 'cmake_clean_first' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_motor' build argument 'cmake_force_configure' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_motor' build argument 'ament_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'main_motor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'main_motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.222s] DEBUG:colcon.colcon_core.verb:Building package 'main_motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/main/main_ws/build/main_motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/main/main_ws/install', 'merge_install': True, 'path': '/home/main/main_ws/src/main_motor', 'symlink_install': False, 'test_result_base': None}
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'main_teleop' build argument 'cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'main_teleop' build argument 'cmake_target' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'main_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'main_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'main_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'main_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'main_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'main_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'main_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.222s] DEBUG:colcon.colcon_core.verb:Building package 'main_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/main/main_ws/build/main_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/main/main_ws/install', 'merge_install': True, 'path': '/home/main/main_ws/src/main_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.222s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.223s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.223s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/main/main_ws/src/main_interface' with build type 'ament_cmake'
+[0.223s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/main/main_ws/src/main_interface'
+[0.224s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.224s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.226s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/main/main_ws/src/main_description' with build type 'ament_cmake'
+[0.226s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/main/main_ws/src/main_description'
+[0.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.229s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/main/main_ws/src/serial-ros2' with build type 'ament_cmake'
+[0.229s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/main/main_ws/src/serial-ros2'
+[0.229s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.229s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.231s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/main/main_ws/src/mqtt' with build type 'ament_python'
+[0.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('mqtt', 'ament_prefix_path')
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/mqtt/hook/ament_prefix_path.ps1'
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/mqtt/hook/ament_prefix_path.dsv'
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/mqtt/hook/ament_prefix_path.sh'
+[0.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.234s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/main/main_ws/src/obstacle_plugin' with build type 'ament_cmake'
+[0.234s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/main/main_ws/src/obstacle_plugin'
+[0.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.236s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/main/main_ws/src/stella_ahrs' with build type 'ament_cmake'
+[0.237s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/main/main_ws/src/stella_ahrs'
+[0.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.238s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/main/main_ws/src/ydlidar_ros2_driver_bs' with build type 'ament_cmake'
+[0.239s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/main/main_ws/src/ydlidar_ros2_driver_bs'
+[0.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.240s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/main/main_ws/src/YDLidar-SDK'
+[0.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/build/main_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/main_interface -- -j16 -l16
+[0.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/build/main_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/main_description -- -j16 -l16
+[0.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/serial -- -j16 -l16
+[0.415s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/main/main_ws/src/mqtt'
+[0.415s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.415s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/build/obstacle_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/obstacle_plugin -- -j16 -l16
+[0.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/build/stella_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/stella_ahrs -- -j16 -l16
+[0.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/ydlidar_ros2_driver -- -j16 -l16
+[0.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/main/main_ws/build/ydlidar_sdk -- -j16 -l16
+[0.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/build/main_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/main_description -- -j16 -l16
+[0.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/build/main_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/main_description
+[0.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/serial -- -j16 -l16
+[0.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/serial
+[0.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[0.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/serial
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[0.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/cmake_prefix_path.ps1'
+[0.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/serial/hook/cmake_prefix_path.dsv'
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/cmake_prefix_path.sh'
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[0.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'ld_library_path_lib')
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/ld_library_path_lib.ps1'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/serial/hook/ld_library_path_lib.dsv'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/ld_library_path_lib.sh'
+[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'path')
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/path.ps1'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/serial/hook/path.dsv'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/path.sh'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/serial.pc'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[0.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'pythonpath')
+[0.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/pythonpath.ps1'
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/serial/hook/pythonpath.dsv'
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/pythonpath.sh'
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'pythonscriptspath')
+[0.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/pythonscriptspath.ps1'
+[0.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/serial/hook/pythonscriptspath.dsv'
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/pythonscriptspath.sh'
+[0.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/serial/package.ps1'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/serial/package.dsv'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/serial/package.sh'
+[0.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/serial/package.bash'
+[0.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/serial/package.zsh'
+[0.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/serial)
+[0.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[0.479s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[0.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[0.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/cmake_prefix_path.ps1'
+[0.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/serial/hook/cmake_prefix_path.dsv'
+[0.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/cmake_prefix_path.sh'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[0.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'ld_library_path_lib')
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/ld_library_path_lib.ps1'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/serial/hook/ld_library_path_lib.dsv'
+[0.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/ld_library_path_lib.sh'
+[0.485s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'path')
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/path.ps1'
+[0.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/serial/hook/path.dsv'
+[0.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/path.sh'
+[0.487s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/serial.pc'
+[0.487s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[0.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'pythonpath')
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/pythonpath.ps1'
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/serial/hook/pythonpath.dsv'
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/pythonpath.sh'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'pythonscriptspath')
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/pythonscriptspath.ps1'
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/serial/hook/pythonscriptspath.dsv'
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/serial/hook/pythonscriptspath.sh'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/serial/package.ps1'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/serial/package.dsv'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/serial/package.sh'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/serial/package.bash'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/serial/package.zsh'
+[0.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/serial)
+[0.497s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/main/main_ws/src/main_motor' with build type 'ament_cmake'
+[0.497s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/main/main_ws/src/main_motor'
+[0.498s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.498s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.505s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main_description)
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[0.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/build/main_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/main_description
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[0.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_description', 'cmake_prefix_path')
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/cmake_prefix_path.ps1'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_description/hook/cmake_prefix_path.dsv'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/cmake_prefix_path.sh'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[0.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_description', 'ld_library_path_lib')
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/ld_library_path_lib.ps1'
+[0.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_description/hook/ld_library_path_lib.dsv'
+[0.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/ld_library_path_lib.sh'
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_description', 'path')
+[0.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/path.ps1'
+[0.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_description/hook/path.dsv'
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/path.sh'
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/main_description.pc'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[0.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_description', 'pythonpath')
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/pythonpath.ps1'
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_description/hook/pythonpath.dsv'
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/pythonpath.sh'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_description', 'pythonscriptspath')
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/pythonscriptspath.ps1'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_description/hook/pythonscriptspath.dsv'
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/pythonscriptspath.sh'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_description/package.ps1'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/main_description/package.dsv'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_description/package.sh'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_description/package.bash'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_description/package.zsh'
+[0.518s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/main_description)
+[0.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main_description)
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[0.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_description', 'cmake_prefix_path')
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/cmake_prefix_path.ps1'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_description/hook/cmake_prefix_path.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/cmake_prefix_path.sh'
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[0.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_description', 'ld_library_path_lib')
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/ld_library_path_lib.ps1'
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_description/hook/ld_library_path_lib.dsv'
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/ld_library_path_lib.sh'
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_description', 'path')
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/path.ps1'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_description/hook/path.dsv'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/path.sh'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/main_description.pc'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[0.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_description', 'pythonpath')
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/pythonpath.ps1'
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_description/hook/pythonpath.dsv'
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/pythonpath.sh'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_description', 'pythonscriptspath')
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/pythonscriptspath.ps1'
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_description/hook/pythonscriptspath.dsv'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_description/hook/pythonscriptspath.sh'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_description/package.ps1'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/main_description/package.dsv'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_description/package.sh'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_description/package.bash'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_description/package.zsh'
+[0.525s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/main_description)
+[0.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/build/stella_ahrs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/stella_ahrs -- -j16 -l16
+[0.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/build/stella_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/stella_ahrs
+[0.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/ydlidar_ros2_driver -- -j16 -l16
+[0.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/ydlidar_ros2_driver
+[0.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/build/obstacle_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/obstacle_plugin -- -j16 -l16
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/build/obstacle_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/obstacle_plugin
+[0.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/build/main_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16
+[0.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/build/main_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/main_interface -- -j16 -l16
+[0.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/build/main_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/main_interface
+[0.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/main/main_ws/build/ydlidar_sdk -- -j16 -l16
+[0.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/main/main_ws/build/ydlidar_sdk
+[0.546s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stella_ahrs)
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[0.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/build/stella_ahrs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/stella_ahrs
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[0.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('stella_ahrs', 'cmake_prefix_path')
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/cmake_prefix_path.ps1'
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/stella_ahrs/hook/cmake_prefix_path.dsv'
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/cmake_prefix_path.sh'
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[0.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('stella_ahrs', 'ld_library_path_lib')
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/ld_library_path_lib.ps1'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/stella_ahrs/hook/ld_library_path_lib.dsv'
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/ld_library_path_lib.sh'
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('stella_ahrs', 'path')
+[0.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/path.ps1'
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/stella_ahrs/hook/path.dsv'
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/path.sh'
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/stella_ahrs.pc'
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[0.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('stella_ahrs', 'pythonpath')
+[0.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/pythonpath.ps1'
+[0.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/stella_ahrs/hook/pythonpath.dsv'
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/pythonpath.sh'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('stella_ahrs', 'pythonscriptspath')
+[0.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/pythonscriptspath.ps1'
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/stella_ahrs/hook/pythonscriptspath.dsv'
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/pythonscriptspath.sh'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/stella_ahrs/package.ps1'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/stella_ahrs/package.dsv'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/stella_ahrs/package.sh'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/stella_ahrs/package.bash'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/stella_ahrs/package.zsh'
+[0.584s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/stella_ahrs)
+[0.585s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stella_ahrs)
+[0.585s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[0.586s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[0.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('stella_ahrs', 'cmake_prefix_path')
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/cmake_prefix_path.ps1'
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/stella_ahrs/hook/cmake_prefix_path.dsv'
+[0.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/cmake_prefix_path.sh'
+[0.592s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[0.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('stella_ahrs', 'ld_library_path_lib')
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/ld_library_path_lib.ps1'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/stella_ahrs/hook/ld_library_path_lib.dsv'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/ld_library_path_lib.sh'
+[0.595s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('stella_ahrs', 'path')
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/path.ps1'
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/stella_ahrs/hook/path.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/path.sh'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/stella_ahrs.pc'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[0.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('stella_ahrs', 'pythonpath')
+[0.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/pythonpath.ps1'
+[0.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/stella_ahrs/hook/pythonpath.dsv'
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/pythonpath.sh'
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('stella_ahrs', 'pythonscriptspath')
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/pythonscriptspath.ps1'
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/stella_ahrs/hook/pythonscriptspath.dsv'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/stella_ahrs/hook/pythonscriptspath.sh'
+[0.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/stella_ahrs/package.ps1'
+[0.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/stella_ahrs/package.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/stella_ahrs/package.sh'
+[0.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/stella_ahrs/package.bash'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/stella_ahrs/package.zsh'
+[0.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/stella_ahrs)
+[0.600s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[0.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/ydlidar_ros2_driver
+[0.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[0.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'ld_library_path_lib')
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/ld_library_path_lib.ps1'
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/ld_library_path_lib.dsv'
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/ld_library_path_lib.sh'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'path')
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/path.ps1'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/path.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/path.sh'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[0.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'pythonpath')
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/pythonpath.ps1'
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/pythonpath.dsv'
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/pythonpath.sh'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'pythonscriptspath')
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/pythonscriptspath.ps1'
+[0.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/pythonscriptspath.dsv'
+[0.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/pythonscriptspath.sh'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/ydlidar_ros2_driver/package.ps1'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/ydlidar_ros2_driver/package.dsv'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/ydlidar_ros2_driver/package.sh'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/ydlidar_ros2_driver/package.bash'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/ydlidar_ros2_driver/package.zsh'
+[0.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/ydlidar_ros2_driver)
+[0.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[0.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[0.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'ld_library_path_lib')
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/ld_library_path_lib.ps1'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/ld_library_path_lib.dsv'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/ld_library_path_lib.sh'
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'path')
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/path.ps1'
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/path.dsv'
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/path.sh'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[0.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'pythonpath')
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/pythonpath.ps1'
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/pythonpath.dsv'
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/pythonpath.sh'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'pythonscriptspath')
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/pythonscriptspath.ps1'
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/pythonscriptspath.dsv'
+[0.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_ros2_driver/hook/pythonscriptspath.sh'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/ydlidar_ros2_driver/package.ps1'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/ydlidar_ros2_driver/package.dsv'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/ydlidar_ros2_driver/package.sh'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/ydlidar_ros2_driver/package.bash'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/ydlidar_ros2_driver/package.zsh'
+[0.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/ydlidar_ros2_driver)
+[0.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_plugin)
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[0.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/build/obstacle_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/obstacle_plugin
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[0.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_plugin', 'cmake_prefix_path')
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/cmake_prefix_path.ps1'
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/obstacle_plugin/hook/cmake_prefix_path.dsv'
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/cmake_prefix_path.sh'
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[0.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_plugin', 'ld_library_path_lib')
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/ld_library_path_lib.ps1'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/obstacle_plugin/hook/ld_library_path_lib.dsv'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/ld_library_path_lib.sh'
+[0.618s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_plugin', 'path')
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/path.ps1'
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/obstacle_plugin/hook/path.dsv'
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/path.sh'
+[0.618s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/obstacle_plugin.pc'
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[0.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_plugin', 'pythonpath')
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/pythonpath.ps1'
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/obstacle_plugin/hook/pythonpath.dsv'
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/pythonpath.sh'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_plugin', 'pythonscriptspath')
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/pythonscriptspath.ps1'
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/obstacle_plugin/hook/pythonscriptspath.dsv'
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/pythonscriptspath.sh'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/obstacle_plugin/package.ps1'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/obstacle_plugin/package.dsv'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/obstacle_plugin/package.sh'
+[0.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/obstacle_plugin/package.bash'
+[0.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/obstacle_plugin/package.zsh'
+[0.622s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/obstacle_plugin)
+[0.622s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_plugin)
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[0.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_plugin', 'cmake_prefix_path')
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/cmake_prefix_path.ps1'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/obstacle_plugin/hook/cmake_prefix_path.dsv'
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/cmake_prefix_path.sh'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[0.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_plugin', 'ld_library_path_lib')
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/ld_library_path_lib.ps1'
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/obstacle_plugin/hook/ld_library_path_lib.dsv'
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/ld_library_path_lib.sh'
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_plugin', 'path')
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/path.ps1'
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/obstacle_plugin/hook/path.dsv'
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/path.sh'
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/obstacle_plugin.pc'
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[0.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_plugin', 'pythonpath')
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/pythonpath.ps1'
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/obstacle_plugin/hook/pythonpath.dsv'
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/pythonpath.sh'
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_plugin', 'pythonscriptspath')
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/pythonscriptspath.ps1'
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/obstacle_plugin/hook/pythonscriptspath.dsv'
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/obstacle_plugin/hook/pythonscriptspath.sh'
+[0.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/obstacle_plugin/package.ps1'
+[0.628s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/obstacle_plugin/package.dsv'
+[0.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/obstacle_plugin/package.sh'
+[0.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/obstacle_plugin/package.bash'
+[0.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/obstacle_plugin/package.zsh'
+[0.629s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/obstacle_plugin)
+[0.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main_interface)
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[0.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/build/main_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/main_interface
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[0.631s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_interface', 'cmake_prefix_path')
+[0.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/cmake_prefix_path.ps1'
+[0.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_interface/hook/cmake_prefix_path.dsv'
+[0.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/cmake_prefix_path.sh'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[0.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_interface', 'ld_library_path_lib')
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/ld_library_path_lib.ps1'
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_interface/hook/ld_library_path_lib.dsv'
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/ld_library_path_lib.sh'
+[0.633s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_interface', 'path')
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/path.ps1'
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_interface/hook/path.dsv'
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/path.sh'
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/main_interface.pc'
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[0.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_interface', 'pythonpath')
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/pythonpath.ps1'
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_interface/hook/pythonpath.dsv'
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/pythonpath.sh'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_interface', 'pythonscriptspath')
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/pythonscriptspath.ps1'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_interface/hook/pythonscriptspath.dsv'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/pythonscriptspath.sh'
+[0.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_interface/package.ps1'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/main_interface/package.dsv'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_interface/package.sh'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_interface/package.bash'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_interface/package.zsh'
+[0.638s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/main_interface)
+[0.638s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main_interface)
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[0.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_interface', 'cmake_prefix_path')
+[0.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/cmake_prefix_path.ps1'
+[0.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_interface/hook/cmake_prefix_path.dsv'
+[0.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/cmake_prefix_path.sh'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[0.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_interface', 'ld_library_path_lib')
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/ld_library_path_lib.ps1'
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_interface/hook/ld_library_path_lib.dsv'
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/ld_library_path_lib.sh'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_interface', 'path')
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/path.ps1'
+[0.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_interface/hook/path.dsv'
+[0.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/path.sh'
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/main_interface.pc'
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[0.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_interface', 'pythonpath')
+[0.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/pythonpath.ps1'
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_interface/hook/pythonpath.dsv'
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/pythonpath.sh'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_interface', 'pythonscriptspath')
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/pythonscriptspath.ps1'
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_interface/hook/pythonscriptspath.dsv'
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_interface/hook/pythonscriptspath.sh'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_interface/package.ps1'
+[0.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/main_interface/package.dsv'
+[0.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_interface/package.sh'
+[0.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_interface/package.bash'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_interface/package.zsh'
+[0.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/main_interface)
+[0.645s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/main/main_ws/src/main_bringup' with build type 'ament_python'
+[0.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_bringup', 'ament_prefix_path')
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_bringup/hook/ament_prefix_path.ps1'
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_bringup/hook/ament_prefix_path.dsv'
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_bringup/hook/ament_prefix_path.sh'
+[0.646s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.646s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.649s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/main/main_ws/src/main_teleop' with build type 'ament_python'
+[0.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_teleop', 'ament_prefix_path')
+[0.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_teleop/hook/ament_prefix_path.ps1'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_teleop/hook/ament_prefix_path.dsv'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_teleop/hook/ament_prefix_path.sh'
+[0.650s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.650s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.652s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_sdk)
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[0.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/main/main_ws/build/ydlidar_sdk
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[0.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'cmake_prefix_path')
+[0.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_sdk/hook/cmake_prefix_path.ps1'
+[0.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/ydlidar_sdk/hook/cmake_prefix_path.dsv'
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_sdk/hook/cmake_prefix_path.sh'
+[0.654s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[0.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'ld_library_path_lib')
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_sdk/hook/ld_library_path_lib.ps1'
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/ydlidar_sdk/hook/ld_library_path_lib.dsv'
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_sdk/hook/ld_library_path_lib.sh'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'path')
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_sdk/hook/path.ps1'
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/ydlidar_sdk/hook/path.dsv'
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_sdk/hook/path.sh'
+[0.656s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/ydlidar_sdk.pc'
+[0.656s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[0.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'pythonpath')
+[0.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_sdk/hook/pythonpath.ps1'
+[0.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/ydlidar_sdk/hook/pythonpath.dsv'
+[0.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_sdk/hook/pythonpath.sh'
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[0.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'pythonscriptspath')
+[0.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_sdk/hook/pythonscriptspath.ps1'
+[0.657s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/ydlidar_sdk/hook/pythonscriptspath.dsv'
+[0.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/ydlidar_sdk/hook/pythonscriptspath.sh'
+[0.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/ydlidar_sdk/package.ps1'
+[0.658s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/ydlidar_sdk/package.dsv'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/ydlidar_sdk/package.sh'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/ydlidar_sdk/package.bash'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/ydlidar_sdk/package.zsh'
+[0.659s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/ydlidar_sdk)
+[0.806s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/main/main_ws/src/main_bringup'
+[0.806s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.806s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.956s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/main/main_ws/src/main_teleop'
+[0.956s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.956s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/src/mqtt': PYTHONPATH=/home/main/main_ws/build/mqtt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/main/main_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mqtt build --build-base /home/main/main_ws/build/mqtt/build install --record /home/main/main_ws/build/mqtt/install.log --single-version-externally-managed install_data
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[1.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/src/mqtt' returned '0': PYTHONPATH=/home/main/main_ws/build/mqtt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/main/main_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mqtt build --build-base /home/main/main_ws/build/mqtt/build install --record /home/main/main_ws/build/mqtt/install.log --single-version-externally-managed install_data
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[1.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('mqtt', 'cmake_prefix_path')
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/mqtt/hook/cmake_prefix_path.ps1'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/mqtt/hook/cmake_prefix_path.dsv'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/mqtt/hook/cmake_prefix_path.sh'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[1.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('mqtt', 'ld_library_path_lib')
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/mqtt/hook/ld_library_path_lib.ps1'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/mqtt/hook/ld_library_path_lib.dsv'
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/mqtt/hook/ld_library_path_lib.sh'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[1.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('mqtt', 'path')
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/mqtt/hook/path.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/mqtt/hook/path.dsv'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/mqtt/hook/path.sh'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/mqtt.pc'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[1.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('mqtt', 'pythonpath')
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/mqtt/hook/pythonpath.ps1'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/mqtt/hook/pythonpath.dsv'
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/mqtt/hook/pythonpath.sh'
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[1.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('mqtt', 'pythonscriptspath')
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/mqtt/hook/pythonscriptspath.ps1'
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/mqtt/hook/pythonscriptspath.dsv'
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/mqtt/hook/pythonscriptspath.sh'
+[1.174s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mqtt)
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/mqtt/package.ps1'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/mqtt/package.dsv'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/mqtt/package.sh'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/mqtt/package.bash'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/mqtt/package.zsh'
+[1.176s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/mqtt)
+[1.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/src/main_bringup': PYTHONPATH=/home/main/main_ws/build/main_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_bringup build --build-base /home/main/main_ws/build/main_bringup/build install --record /home/main/main_ws/build/main_bringup/install.log --single-version-externally-managed install_data
+[1.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/src/main_teleop': PYTHONPATH=/home/main/main_ws/build/main_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_teleop build --build-base /home/main/main_ws/build/main_teleop/build install --record /home/main/main_ws/build/main_teleop/install.log --single-version-externally-managed install_data
+[1.391s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[1.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/src/main_bringup' returned '0': PYTHONPATH=/home/main/main_ws/build/main_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_bringup build --build-base /home/main/main_ws/build/main_bringup/build install --record /home/main/main_ws/build/main_bringup/install.log --single-version-externally-managed install_data
+[1.391s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[1.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_bringup', 'cmake_prefix_path')
+[1.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_bringup/hook/cmake_prefix_path.ps1'
+[1.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_bringup/hook/cmake_prefix_path.dsv'
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_bringup/hook/cmake_prefix_path.sh'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[1.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_bringup', 'ld_library_path_lib')
+[1.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_bringup/hook/ld_library_path_lib.ps1'
+[1.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_bringup/hook/ld_library_path_lib.dsv'
+[1.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_bringup/hook/ld_library_path_lib.sh'
+[1.394s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[1.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_bringup', 'path')
+[1.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_bringup/hook/path.ps1'
+[1.395s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_bringup/hook/path.dsv'
+[1.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_bringup/hook/path.sh'
+[1.395s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/main_bringup.pc'
+[1.396s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[1.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_bringup', 'pythonpath')
+[1.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_bringup/hook/pythonpath.ps1'
+[1.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_bringup/hook/pythonpath.dsv'
+[1.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_bringup/hook/pythonpath.sh'
+[1.396s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[1.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_bringup', 'pythonscriptspath')
+[1.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_bringup/hook/pythonscriptspath.ps1'
+[1.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_bringup/hook/pythonscriptspath.dsv'
+[1.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_bringup/hook/pythonscriptspath.sh'
+[1.397s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main_bringup)
+[1.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_bringup/package.ps1'
+[1.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/main_bringup/package.dsv'
+[1.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_bringup/package.sh'
+[1.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_bringup/package.bash'
+[1.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_bringup/package.zsh'
+[1.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/main_bringup)
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[1.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/src/main_teleop' returned '0': PYTHONPATH=/home/main/main_ws/build/main_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_teleop build --build-base /home/main/main_ws/build/main_teleop/build install --record /home/main/main_ws/build/main_teleop/install.log --single-version-externally-managed install_data
+[1.408s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[1.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_teleop', 'cmake_prefix_path')
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_teleop/hook/cmake_prefix_path.ps1'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_teleop/hook/cmake_prefix_path.dsv'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_teleop/hook/cmake_prefix_path.sh'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[1.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_teleop', 'ld_library_path_lib')
+[1.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_teleop/hook/ld_library_path_lib.ps1'
+[1.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_teleop/hook/ld_library_path_lib.dsv'
+[1.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_teleop/hook/ld_library_path_lib.sh'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[1.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_teleop', 'path')
+[1.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_teleop/hook/path.ps1'
+[1.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_teleop/hook/path.dsv'
+[1.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_teleop/hook/path.sh'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/main_teleop.pc'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[1.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_teleop', 'pythonpath')
+[1.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_teleop/hook/pythonpath.ps1'
+[1.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_teleop/hook/pythonpath.dsv'
+[1.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_teleop/hook/pythonpath.sh'
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[1.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_teleop', 'pythonscriptspath')
+[1.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_teleop/hook/pythonscriptspath.ps1'
+[1.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_teleop/hook/pythonscriptspath.dsv'
+[1.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_teleop/hook/pythonscriptspath.sh'
+[1.413s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main_teleop)
+[1.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_teleop/package.ps1'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/main_teleop/package.dsv'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_teleop/package.sh'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_teleop/package.bash'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_teleop/package.zsh'
+[1.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/main_teleop)
+[10.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/build/main_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16
+[10.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/main/main_ws/build/main_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/main/main_ws/build/main_motor
+[10.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main_motor)
+[10.493s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[10.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/main/main_ws/build/main_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/main/main_ws/build/main_motor
+[10.493s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[10.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_motor', 'cmake_prefix_path')
+[10.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/cmake_prefix_path.ps1'
+[10.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_motor/hook/cmake_prefix_path.dsv'
+[10.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/cmake_prefix_path.sh'
+[10.495s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[10.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_motor', 'ld_library_path_lib')
+[10.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/ld_library_path_lib.ps1'
+[10.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_motor/hook/ld_library_path_lib.dsv'
+[10.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/ld_library_path_lib.sh'
+[10.496s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[10.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_motor', 'path')
+[10.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/path.ps1'
+[10.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_motor/hook/path.dsv'
+[10.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/path.sh'
+[10.498s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/main_motor.pc'
+[10.498s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[10.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_motor', 'pythonpath')
+[10.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/pythonpath.ps1'
+[10.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_motor/hook/pythonpath.dsv'
+[10.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/pythonpath.sh'
+[10.499s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[10.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_motor', 'pythonscriptspath')
+[10.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/pythonscriptspath.ps1'
+[10.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_motor/hook/pythonscriptspath.dsv'
+[10.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/pythonscriptspath.sh'
+[10.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_motor/package.ps1'
+[10.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/main_motor/package.dsv'
+[10.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_motor/package.sh'
+[10.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_motor/package.bash'
+[10.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_motor/package.zsh'
+[10.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/main_motor)
+[10.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main_motor)
+[10.502s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake module files
+[10.502s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install' for CMake config files
+[10.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_motor', 'cmake_prefix_path')
+[10.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/cmake_prefix_path.ps1'
+[10.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_motor/hook/cmake_prefix_path.dsv'
+[10.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/cmake_prefix_path.sh'
+[10.503s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib'
+[10.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_motor', 'ld_library_path_lib')
+[10.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/ld_library_path_lib.ps1'
+[10.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_motor/hook/ld_library_path_lib.dsv'
+[10.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/ld_library_path_lib.sh'
+[10.504s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[10.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_motor', 'path')
+[10.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/path.ps1'
+[10.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_motor/hook/path.dsv'
+[10.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/path.sh'
+[10.504s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/pkgconfig/main_motor.pc'
+[10.505s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/lib/python3.10/site-packages'
+[10.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_motor', 'pythonpath')
+[10.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/pythonpath.ps1'
+[10.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_motor/hook/pythonpath.dsv'
+[10.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/pythonpath.sh'
+[10.505s] Level 1:colcon.colcon_core.environment:checking '/home/main/main_ws/install/bin'
+[10.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_motor', 'pythonscriptspath')
+[10.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/pythonscriptspath.ps1'
+[10.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/main/main_ws/install/share/main_motor/hook/pythonscriptspath.dsv'
+[10.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/main/main_ws/install/share/main_motor/hook/pythonscriptspath.sh'
+[10.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_motor/package.ps1'
+[10.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/main/main_ws/install/share/main_motor/package.dsv'
+[10.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_motor/package.sh'
+[10.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_motor/package.bash'
+[10.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/main/main_ws/install/share/main_motor/package.zsh'
+[10.508s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/main/main_ws/install/share/colcon-core/packages/main_motor)
+[10.508s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.508s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.508s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.508s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.513s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.514s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.514s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.523s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.523s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/main/main_ws/install/local_setup.ps1'
+[10.523s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/main/main_ws/install/_local_setup_util_ps1.py'
+[10.524s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/main/main_ws/install/setup.ps1'
+[10.525s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/main/main_ws/install/local_setup.sh'
+[10.525s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/main/main_ws/install/_local_setup_util_sh.py'
+[10.525s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/main/main_ws/install/setup.sh'
+[10.526s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/main/main_ws/install/local_setup.bash'
+[10.526s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/main/main_ws/install/setup.bash'
+[10.527s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/main/main_ws/install/local_setup.zsh'
+[10.527s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/main/main_ws/install/setup.zsh'

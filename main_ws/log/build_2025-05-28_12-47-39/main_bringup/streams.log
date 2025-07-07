@@ -1,0 +1,101 @@
+[0.916s] Invoking command in '/home/main/main_ws/src/main_bringup': PYTHONPATH=/home/main/main_ws/build/main_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_bringup build --build-base /home/main/main_ws/build/main_bringup/build install --record /home/main/main_ws/build/main_bringup/install.log --single-version-externally-managed install_data
+[1.215s] running egg_info
+[1.216s] creating ../../build/main_bringup/main_bringup.egg-info
+[1.217s] writing ../../build/main_bringup/main_bringup.egg-info/PKG-INFO
+[1.217s] writing dependency_links to ../../build/main_bringup/main_bringup.egg-info/dependency_links.txt
+[1.217s] writing entry points to ../../build/main_bringup/main_bringup.egg-info/entry_points.txt
+[1.217s] writing requirements to ../../build/main_bringup/main_bringup.egg-info/requires.txt
+[1.217s] writing top-level names to ../../build/main_bringup/main_bringup.egg-info/top_level.txt
+[1.217s] writing manifest file '../../build/main_bringup/main_bringup.egg-info/SOURCES.txt'
+[1.222s] reading manifest file '../../build/main_bringup/main_bringup.egg-info/SOURCES.txt'
+[1.223s] writing manifest file '../../build/main_bringup/main_bringup.egg-info/SOURCES.txt'
+[1.223s] running build
+[1.223s] running build_py
+[1.223s] creating /home/main/main_ws/build/main_bringup/build
+[1.224s] creating /home/main/main_ws/build/main_bringup/build/lib
+[1.224s] creating /home/main/main_ws/build/main_bringup/build/lib/main_bringup
+[1.224s] copying main_bringup/__init__.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup
+[1.224s] creating /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts
+[1.224s] copying main_bringup/scripts/omo_r1_motor_setting_node.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts
+[1.224s] copying main_bringup/scripts/omo_r1_mcu_node.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts
+[1.224s] copying main_bringup/scripts/__init__.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts
+[1.225s] copying main_bringup/scripts/omo_packet_handler.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts
+[1.225s] creating /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/calc
+[1.225s] copying main_bringup/scripts/calc/__init__.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/calc
+[1.225s] copying main_bringup/scripts/calc/quaternion_from_euler.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/calc
+[1.225s] creating /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver
+[1.225s] copying main_bringup/scripts/driver/template.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver
+[1.225s] copying main_bringup/scripts/driver/port.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver
+[1.225s] copying main_bringup/scripts/driver/__init__.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver
+[1.225s] copying main_bringup/scripts/driver/packet.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver
+[1.226s] running install
+[1.226s] running install_lib
+[1.227s] creating /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup
+[1.227s] copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/__init__.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup
+[1.228s] creating /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts
+[1.228s] copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/omo_r1_motor_setting_node.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts
+[1.228s] creating /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/calc
+[1.228s] copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/calc/__init__.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/calc
+[1.228s] copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/calc/quaternion_from_euler.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/calc
+[1.228s] copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/omo_r1_mcu_node.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts
+[1.228s] creating /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver
+[1.228s] copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver/template.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver
+[1.229s] copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver/port.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver
+[1.229s] copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver/__init__.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver
+[1.229s] copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver/packet.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver
+[1.229s] copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/__init__.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts
+[1.229s] copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/omo_packet_handler.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts
+[1.230s] byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/__init__.py to __init__.cpython-310.pyc
+[1.230s] byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/omo_r1_motor_setting_node.py to omo_r1_motor_setting_node.cpython-310.pyc
+[1.231s] byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/calc/__init__.py to __init__.cpython-310.pyc
+[1.231s] byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/calc/quaternion_from_euler.py to quaternion_from_euler.cpython-310.pyc
+[1.231s] byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/omo_r1_mcu_node.py to omo_r1_mcu_node.cpython-310.pyc
+[1.235s] byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver/template.py to template.cpython-310.pyc
+[1.235s] byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver/port.py to port.cpython-310.pyc
+[1.236s] byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver/__init__.py to __init__.cpython-310.pyc
+[1.236s] byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver/packet.py to packet.cpython-310.pyc
+[1.237s] byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/__init__.py to __init__.cpython-310.pyc
+[1.237s] byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/omo_packet_handler.py to omo_packet_handler.cpython-310.pyc
+[1.238s] running install_data
+[1.238s] copying resource/main_bringup -> /home/main/main_ws/install/share/ament_index/resource_index/packages
+[1.239s] copying package.xml -> /home/main/main_ws/install/share/main_bringup
+[1.239s] creating /home/main/main_ws/install/share/main_bringup/launch
+[1.239s] copying launch/omo_r1_mcu.launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+[1.239s] copying launch/localization_launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+[1.239s] copying launch/navigation_launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+[1.239s] copying launch/omo_r1_bringup.launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+[1.239s] copying launch/bringup_launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+[1.239s] copying launch/online.async.launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+[1.240s] copying launch/slam_launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+[1.240s] copying launch/rviz1.launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+[1.240s] copying launch/omo_r1_motor_setting.launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+[1.240s] copying launch/navigation.launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+[1.240s] creating /home/main/main_ws/install/share/main_bringup/params
+[1.240s] copying params/nav2_params.yaml -> /home/main/main_ws/install/share/main_bringup/params
+[1.240s] copying params/mapper_params_online_async.yaml -> /home/main/main_ws/install/share/main_bringup/params
+[1.240s] copying params/omo_r1_lidar.yaml -> /home/main/main_ws/install/share/main_bringup/params
+[1.240s] copying params/omo_r1_mcu.yaml -> /home/main/main_ws/install/share/main_bringup/params
+[1.241s] creating /home/main/main_ws/install/share/main_bringup/map
+[1.241s] copying map/fullmap_serial.data -> /home/main/main_ws/install/share/main_bringup/map
+[1.242s] copying map/112_save.yaml -> /home/main/main_ws/install/share/main_bringup/map
+[1.242s] copying map/fullmap_save.yaml -> /home/main/main_ws/install/share/main_bringup/map
+[1.242s] copying map/112map_save.pgm -> /home/main/main_ws/install/share/main_bringup/map
+[1.242s] copying map/fullmap_save.pgm -> /home/main/main_ws/install/share/main_bringup/map
+[1.242s] copying map/112map_save_serial.posegraph -> /home/main/main_ws/install/share/main_bringup/map
+[1.255s] copying map/102map_save.pgm -> /home/main/main_ws/install/share/main_bringup/map
+[1.255s] copying map/112map_save_serial.data -> /home/main/main_ws/install/share/main_bringup/map
+[1.255s] copying map/102map_save.yaml -> /home/main/main_ws/install/share/main_bringup/map
+[1.255s] copying map/102map_serial.data -> /home/main/main_ws/install/share/main_bringup/map
+[1.256s] copying map/fullmap_serial.posegraph -> /home/main/main_ws/install/share/main_bringup/map
+[1.270s] copying map/112_serial.data -> /home/main/main_ws/install/share/main_bringup/map
+[1.270s] copying map/102map_serial.posegraph -> /home/main/main_ws/install/share/main_bringup/map
+[1.281s] copying map/112_serial.posegraph -> /home/main/main_ws/install/share/main_bringup/map
+[1.292s] copying map/112_save.pgm -> /home/main/main_ws/install/share/main_bringup/map
+[1.292s] copying map/112map_save.yaml -> /home/main/main_ws/install/share/main_bringup/map
+[1.292s] running install_egg_info
+[1.295s] Copying ../../build/main_bringup/main_bringup.egg-info to /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup-0.0.1-py3.10.egg-info
+[1.295s] running install_scripts
+[1.319s] Installing omo_r1_mcu_node script to /home/main/main_ws/install/lib/main_bringup
+[1.319s] Installing omo_r1_motor_setting_node script to /home/main/main_ws/install/lib/main_bringup
+[1.319s] writing list of installed files to '/home/main/main_ws/build/main_bringup/install.log'
+[1.363s] Invoked command in '/home/main/main_ws/src/main_bringup' returned '0': PYTHONPATH=/home/main/main_ws/build/main_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_bringup build --build-base /home/main/main_ws/build/main_bringup/build install --record /home/main/main_ws/build/main_bringup/install.log --single-version-externally-managed install_data

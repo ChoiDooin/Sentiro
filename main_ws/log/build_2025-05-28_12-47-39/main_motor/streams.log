@@ -1,0 +1,80 @@
+[0.010s] Invoking command in '/home/main/main_ws/build/main_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/main/main_ws/src/main_motor -DCMAKE_INSTALL_PREFIX=/home/main/main_ws/install
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.119s] -- The CXX compiler identification is GNU 11.4.0
+[0.128s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.203s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.203s] -- Detecting C compile features
+[0.203s] -- Detecting C compile features - done
+[0.207s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.284s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.284s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.287s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.570s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.755s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.813s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.827s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.838s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.855s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.883s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.953s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.958s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.090s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.120s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.159s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.166s] -- Looking for pthread.h
+[1.231s] -- Looking for pthread.h - found
+[1.231s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.334s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.336s] -- Found Threads: TRUE  
+[1.437s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.457s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.482s] -- Found serial: 1.2.1 (/home/main/main_ws/install/share/serial/cmake)
+[1.486s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.618s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.618s] -- Configured cppcheck include dirs: 
+[1.618s] -- Configured cppcheck exclude dirs and/or files: 
+[1.619s] -- Added test 'lint_cmake' to check CMake code style
+[1.621s] -- Added test 'uncrustify' to check C / C++ code style
+[1.621s] -- Configured uncrustify additional arguments: 
+[1.621s] -- Added test 'xmllint' to check XML markup files
+[1.623s] -- Configuring done
+[1.640s] -- Generating done
+[1.647s] -- Build files have been written to: /home/main/main_ws/build/main_motor
+[1.663s] Invoked command in '/home/main/main_ws/build/main_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/main/main_ws/src/main_motor -DCMAKE_INSTALL_PREFIX=/home/main/main_ws/install
+[1.665s] Invoking command in '/home/main/main_ws/build/main_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16
+[1.728s] [ 50%] [32mBuilding CXX object CMakeFiles/send_arduino_node.dir/src/send_arduino.cpp.o[0m
+[1.729s] [ 50%] [32mBuilding CXX object CMakeFiles/main_run_node.dir/src/main_run.cpp.o[0m
+[5.433s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:[m[K In member function ‘[01m[Kvoid MainRunNode::webDataCallback(std_msgs::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.433s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:146:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.433s]   146 |     void webDataCallback([01;35m[Kconst std_msgs::msg::Int64::SharedPtr msg[m[K)
+[5.433s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.931s] [ 75%] [32m[1mLinking CXX executable send_arduino_node[0m
+[10.210s] [ 75%] Built target send_arduino_node
+[15.007s] [100%] [32m[1mLinking CXX executable main_run_node[0m
+[15.534s] [100%] Built target main_run_node
+[15.543s] Invoked command in '/home/main/main_ws/build/main_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16
+[15.544s] Invoking command in '/home/main/main_ws/build/main_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/main/main_ws/build/main_motor
+[15.552s] -- Install configuration: ""
+[15.552s] -- Installing: /home/main/main_ws/install/lib/main_motor/send_arduino_node
+[15.555s] -- Set runtime path of "/home/main/main_ws/install/lib/main_motor/send_arduino_node" to ""
+[15.555s] -- Installing: /home/main/main_ws/install/lib/main_motor/main_run_node
+[15.560s] -- Set runtime path of "/home/main/main_ws/install/lib/main_motor/main_run_node" to ""
+[15.560s] -- Installing: /home/main/main_ws/install/share/ament_index/resource_index/package_run_dependencies/main_motor
+[15.560s] -- Installing: /home/main/main_ws/install/share/ament_index/resource_index/parent_prefix_path/main_motor
+[15.560s] -- Installing: /home/main/main_ws/install/share/main_motor/environment/ament_prefix_path.sh
+[15.560s] -- Installing: /home/main/main_ws/install/share/main_motor/environment/ament_prefix_path.dsv
+[15.560s] -- Installing: /home/main/main_ws/install/share/main_motor/environment/path.sh
+[15.560s] -- Installing: /home/main/main_ws/install/share/main_motor/environment/path.dsv
+[15.560s] -- Installing: /home/main/main_ws/install/share/main_motor/local_setup.bash
+[15.560s] -- Installing: /home/main/main_ws/install/share/main_motor/local_setup.sh
+[15.561s] -- Installing: /home/main/main_ws/install/share/main_motor/local_setup.zsh
+[15.561s] -- Installing: /home/main/main_ws/install/share/main_motor/local_setup.dsv
+[15.561s] -- Installing: /home/main/main_ws/install/share/main_motor/package.dsv
+[15.561s] -- Installing: /home/main/main_ws/install/share/ament_index/resource_index/packages/main_motor
+[15.561s] -- Installing: /home/main/main_ws/install/share/main_motor/cmake/main_motorConfig.cmake
+[15.561s] -- Installing: /home/main/main_ws/install/share/main_motor/cmake/main_motorConfig-version.cmake
+[15.561s] -- Installing: /home/main/main_ws/install/share/main_motor/package.xml
+[15.562s] Invoked command in '/home/main/main_ws/build/main_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/main/main_ws/build/main_motor

@@ -1,0 +1,77 @@
+[0.186s] Invoking command in '/home/main/main_ws/build/obstacle_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/main/main_ws/src/obstacle_plugin -DCMAKE_INSTALL_PREFIX=/home/main/main_ws/install
+[0.241s] -- The C compiler identification is GNU 11.4.0
+[0.296s] -- The CXX compiler identification is GNU 11.4.0
+[0.303s] -- Detecting C compiler ABI info
+[0.378s] -- Detecting C compiler ABI info - done
+[0.387s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.387s] -- Detecting C compile features
+[0.388s] -- Detecting C compile features - done
+[0.391s] -- Detecting CXX compiler ABI info
+[0.482s] -- Detecting CXX compiler ABI info - done
+[0.488s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.489s] -- Detecting CXX compile features
+[0.489s] -- Detecting CXX compile features - done
+[0.491s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.627s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.714s] -- Found nav2_costmap_2d: 1.1.18 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+[0.749s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.753s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.759s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.769s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.782s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.962s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.965s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.160s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.200s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.259s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.271s] -- Looking for pthread.h
+[1.348s] -- Looking for pthread.h - found
+[1.348s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.425s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.426s] -- Found Threads: TRUE  
+[1.613s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.613s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.708s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.808s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.808s] -- Configured cppcheck include dirs: 
+[1.809s] -- Configured cppcheck exclude dirs and/or files: 
+[1.809s] -- Added test 'lint_cmake' to check CMake code style
+[1.810s] -- Added test 'uncrustify' to check C / C++ code style
+[1.810s] -- Configured uncrustify additional arguments: 
+[1.811s] -- Added test 'xmllint' to check XML markup files
+[1.812s] -- Configuring done
+[1.864s] -- Generating done
+[1.873s] -- Build files have been written to: /home/main/main_ws/build/obstacle_plugin
+[1.905s] Invoked command in '/home/main/main_ws/build/obstacle_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/main/main_ws/src/obstacle_plugin -DCMAKE_INSTALL_PREFIX=/home/main/main_ws/install
+[1.910s] Invoking command in '/home/main/main_ws/build/obstacle_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/obstacle_plugin -- -j16 -l16
+[1.987s] [ 50%] [32mBuilding CXX object CMakeFiles/manual_obstacle_layer.dir/src/manual_obstacle_layer.cpp.o[0m
+[2.449s] In file included from [01m[K/home/main/main_ws/src/obstacle_plugin/src/manual_obstacle_layer.cpp:9[m[K:
+[2.449s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[2.449s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[2.450s]       |  [01;35m[K^~~~~~~[m[K
+[12.053s] [100%] [32m[1mLinking CXX shared library libmanual_obstacle_layer.so[0m
+[12.478s] [100%] Built target manual_obstacle_layer
+[12.488s] Invoked command in '/home/main/main_ws/build/obstacle_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/obstacle_plugin -- -j16 -l16
+[12.490s] Invoking command in '/home/main/main_ws/build/obstacle_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/obstacle_plugin
+[12.495s] -- Install configuration: ""
+[12.495s] -- Installing: /home/main/main_ws/install/share/obstacle_plugin/plugins.xml
+[12.495s] -- Installing: /home/main/main_ws/install/lib/obstacle_plugin/libmanual_obstacle_layer.so
+[12.499s] -- Set runtime path of "/home/main/main_ws/install/lib/obstacle_plugin/libmanual_obstacle_layer.so" to ""
+[12.499s] -- Up-to-date: /home/main/main_ws/install/share/obstacle_plugin/plugins.xml
+[12.499s] -- Installing: /home/main/main_ws/install/share/ament_index/resource_index/package_run_dependencies/obstacle_plugin
+[12.499s] -- Installing: /home/main/main_ws/install/share/ament_index/resource_index/parent_prefix_path/obstacle_plugin
+[12.499s] -- Installing: /home/main/main_ws/install/share/obstacle_plugin/environment/ament_prefix_path.sh
+[12.499s] -- Installing: /home/main/main_ws/install/share/obstacle_plugin/environment/ament_prefix_path.dsv
+[12.499s] -- Installing: /home/main/main_ws/install/share/obstacle_plugin/environment/path.sh
+[12.500s] -- Installing: /home/main/main_ws/install/share/obstacle_plugin/environment/path.dsv
+[12.500s] -- Installing: /home/main/main_ws/install/share/obstacle_plugin/local_setup.bash
+[12.500s] -- Installing: /home/main/main_ws/install/share/obstacle_plugin/local_setup.sh
+[12.500s] -- Installing: /home/main/main_ws/install/share/obstacle_plugin/local_setup.zsh
+[12.500s] -- Installing: /home/main/main_ws/install/share/obstacle_plugin/local_setup.dsv
+[12.500s] -- Installing: /home/main/main_ws/install/share/obstacle_plugin/package.dsv
+[12.500s] -- Installing: /home/main/main_ws/install/share/ament_index/resource_index/packages/obstacle_plugin
+[12.500s] -- Installing: /home/main/main_ws/install/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/obstacle_plugin
+[12.500s] -- Installing: /home/main/main_ws/install/share/obstacle_plugin/cmake/obstacle_pluginConfig.cmake
+[12.500s] -- Installing: /home/main/main_ws/install/share/obstacle_plugin/cmake/obstacle_pluginConfig-version.cmake
+[12.500s] -- Installing: /home/main/main_ws/install/share/obstacle_plugin/package.xml
+[12.502s] Invoked command in '/home/main/main_ws/build/obstacle_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/obstacle_plugin

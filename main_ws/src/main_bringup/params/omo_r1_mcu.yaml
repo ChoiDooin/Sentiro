@@ -1,0 +1,14 @@
+omo_r1_mcu_node:
+  ros__parameters:
+    port.name: "/dev/ttyUSB0"
+    port.baudrate: 115200
+
+    wheel.separation: 0.57
+    wheel.radius: 0.1
+
+    motor.gear_ratio: 15.0
+    motor.max_lin_vel_x: 0.6
+    motor.max_ang_vel_z: 0.5
+
+    sensor.enc_pulse: 60000.0
+    sensor.use_gyro: false

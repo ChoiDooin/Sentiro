@@ -1,0 +1,99 @@
+running egg_info
+creating ../../build/main_bringup/main_bringup.egg-info
+writing ../../build/main_bringup/main_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/main_bringup/main_bringup.egg-info/dependency_links.txt
+writing entry points to ../../build/main_bringup/main_bringup.egg-info/entry_points.txt
+writing requirements to ../../build/main_bringup/main_bringup.egg-info/requires.txt
+writing top-level names to ../../build/main_bringup/main_bringup.egg-info/top_level.txt
+writing manifest file '../../build/main_bringup/main_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../build/main_bringup/main_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/main_bringup/main_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/main/main_ws/build/main_bringup/build
+creating /home/main/main_ws/build/main_bringup/build/lib
+creating /home/main/main_ws/build/main_bringup/build/lib/main_bringup
+copying main_bringup/__init__.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup
+creating /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts
+copying main_bringup/scripts/omo_r1_motor_setting_node.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts
+copying main_bringup/scripts/omo_r1_mcu_node.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts
+copying main_bringup/scripts/__init__.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts
+copying main_bringup/scripts/omo_packet_handler.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts
+creating /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/calc
+copying main_bringup/scripts/calc/__init__.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/calc
+copying main_bringup/scripts/calc/quaternion_from_euler.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/calc
+creating /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver
+copying main_bringup/scripts/driver/template.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver
+copying main_bringup/scripts/driver/port.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver
+copying main_bringup/scripts/driver/__init__.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver
+copying main_bringup/scripts/driver/packet.py -> /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver
+running install
+running install_lib
+creating /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup
+copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/__init__.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup
+creating /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts
+copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/omo_r1_motor_setting_node.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts
+creating /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/calc
+copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/calc/__init__.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/calc
+copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/calc/quaternion_from_euler.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/calc
+copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/omo_r1_mcu_node.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts
+creating /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver
+copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver/template.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver
+copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver/port.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver
+copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver/__init__.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver
+copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/driver/packet.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver
+copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/__init__.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts
+copying /home/main/main_ws/build/main_bringup/build/lib/main_bringup/scripts/omo_packet_handler.py -> /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/omo_r1_motor_setting_node.py to omo_r1_motor_setting_node.cpython-310.pyc
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/calc/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/calc/quaternion_from_euler.py to quaternion_from_euler.cpython-310.pyc
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/omo_r1_mcu_node.py to omo_r1_mcu_node.cpython-310.pyc
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver/template.py to template.cpython-310.pyc
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver/port.py to port.cpython-310.pyc
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/driver/packet.py to packet.cpython-310.pyc
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup/scripts/omo_packet_handler.py to omo_packet_handler.cpython-310.pyc
+running install_data
+copying resource/main_bringup -> /home/main/main_ws/install/share/ament_index/resource_index/packages
+copying package.xml -> /home/main/main_ws/install/share/main_bringup
+creating /home/main/main_ws/install/share/main_bringup/launch
+copying launch/omo_r1_mcu.launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+copying launch/localization_launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+copying launch/navigation_launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+copying launch/omo_r1_bringup.launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+copying launch/bringup_launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+copying launch/online.async.launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+copying launch/slam_launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+copying launch/rviz1.launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+copying launch/omo_r1_motor_setting.launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+copying launch/navigation.launch.py -> /home/main/main_ws/install/share/main_bringup/launch
+creating /home/main/main_ws/install/share/main_bringup/params
+copying params/nav2_params.yaml -> /home/main/main_ws/install/share/main_bringup/params
+copying params/mapper_params_online_async.yaml -> /home/main/main_ws/install/share/main_bringup/params
+copying params/omo_r1_lidar.yaml -> /home/main/main_ws/install/share/main_bringup/params
+copying params/omo_r1_mcu.yaml -> /home/main/main_ws/install/share/main_bringup/params
+creating /home/main/main_ws/install/share/main_bringup/map
+copying map/fullmap_serial.data -> /home/main/main_ws/install/share/main_bringup/map
+copying map/112_save.yaml -> /home/main/main_ws/install/share/main_bringup/map
+copying map/fullmap_save.yaml -> /home/main/main_ws/install/share/main_bringup/map
+copying map/112map_save.pgm -> /home/main/main_ws/install/share/main_bringup/map
+copying map/fullmap_save.pgm -> /home/main/main_ws/install/share/main_bringup/map
+copying map/112map_save_serial.posegraph -> /home/main/main_ws/install/share/main_bringup/map
+copying map/102map_save.pgm -> /home/main/main_ws/install/share/main_bringup/map
+copying map/112map_save_serial.data -> /home/main/main_ws/install/share/main_bringup/map
+copying map/102map_save.yaml -> /home/main/main_ws/install/share/main_bringup/map
+copying map/102map_serial.data -> /home/main/main_ws/install/share/main_bringup/map
+copying map/fullmap_serial.posegraph -> /home/main/main_ws/install/share/main_bringup/map
+copying map/112_serial.data -> /home/main/main_ws/install/share/main_bringup/map
+copying map/102map_serial.posegraph -> /home/main/main_ws/install/share/main_bringup/map
+copying map/112_serial.posegraph -> /home/main/main_ws/install/share/main_bringup/map
+copying map/112_save.pgm -> /home/main/main_ws/install/share/main_bringup/map
+copying map/112map_save.yaml -> /home/main/main_ws/install/share/main_bringup/map
+running install_egg_info
+Copying ../../build/main_bringup/main_bringup.egg-info to /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup-0.0.1-py3.10.egg-info
+running install_scripts
+Installing omo_r1_mcu_node script to /home/main/main_ws/install/lib/main_bringup
+Installing omo_r1_motor_setting_node script to /home/main/main_ws/install/lib/main_bringup
+writing list of installed files to '/home/main/main_ws/build/main_bringup/install.log'

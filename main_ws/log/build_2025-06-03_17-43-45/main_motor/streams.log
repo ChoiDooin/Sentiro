@@ -1,0 +1,77 @@
+[0.039s] Invoking command in '/home/main/main_ws/build/main_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[0.086s] [ 33%] Built target send_arduino_node
+[0.088s] [ 66%] Built target main_run_node
+[0.090s] [ 83%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test.cpp.o[0m
+[1.468s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.468s]                  from [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:1[m[K:
+[1.468s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:[m[K In member function ‘[01m[Kvoid TestNode::timerCallback()[m[K’:
+[1.468s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:81:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%c[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kconst char*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.468s]    81 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Received '%c' to port 1"[m[K, [32m[Kreceived1.c_str()[m[K);
+[1.468s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~[m[K
+[1.468s]       |                                                                                       [32m[K|[m[K
+[1.468s]       |                                                                                       [32m[Kconst char*[m[K
+[1.471s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:81:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.471s]    81 |             RCLCPP_INFO(this->get_logger(), "Received '[01;36m[K%c[m[K' to port 1", received1.c_str());
+[1.471s]       |                                                        [01;36m[K~^[m[K
+[1.471s]       |                                                         [01;36m[K|[m[K
+[1.471s]       |                                                         [01;36m[Kint[m[K
+[1.471s]       |                                                        [32m[K%s[m[K
+[1.471s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.471s]                  from [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:1[m[K:
+[1.472s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:88:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%c[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kconst char*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.472s]    88 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sent '%c' to port 2"[m[K, [32m[Kreceived2.c_str()[m[K);
+[1.472s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~[m[K
+[1.472s]       |                                                                                   [32m[K|[m[K
+[1.472s]       |                                                                                   [32m[Kconst char*[m[K
+[1.472s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:88:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.472s]    88 |             RCLCPP_INFO(this->get_logger(), "Sent '[01;36m[K%c[m[K' to port 2", received2.c_str());
+[1.472s]       |                                                    [01;36m[K~^[m[K
+[1.472s]       |                                                     [01;36m[K|[m[K
+[1.472s]       |                                                     [01;36m[Kint[m[K
+[1.472s]       |                                                    [32m[K%s[m[K
+[1.850s] [100%] [32m[1mLinking CXX executable test_node[0m
+[1.927s] [100%] Built target test_node
+[1.936s] Invoked command in '/home/main/main_ws/build/main_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16
+[1.937s] Invoking command in '/home/main/main_ws/build/main_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/main/main_ws/build/main_motor
+[1.944s] -- Install configuration: ""
+[1.944s] -- Up-to-date: /home/main/main_ws/install/lib/main_motor/send_arduino_node
+[1.944s] -- Up-to-date: /home/main/main_ws/install/lib/main_motor/main_run_node
+[1.944s] -- Installing: /home/main/main_ws/install/lib/main_motor/test_node
+[1.945s] -- Set runtime path of "/home/main/main_ws/install/lib/main_motor/test_node" to ""
+[1.945s] -- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/package_run_dependencies/main_motor
+[1.945s] -- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/parent_prefix_path/main_motor
+[1.945s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/environment/ament_prefix_path.sh
+[1.945s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/environment/ament_prefix_path.dsv
+[1.945s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/environment/path.sh
+[1.945s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/environment/path.dsv
+[1.945s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/local_setup.bash
+[1.945s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/local_setup.sh
+[1.945s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/local_setup.zsh
+[1.945s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/local_setup.dsv
+[1.945s] -- Installing: /home/main/main_ws/install/share/main_motor/package.dsv
+[1.946s] -- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/packages/main_motor
+[1.946s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/cmake/main_motorConfig.cmake
+[1.946s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/cmake/main_motorConfig-version.cmake
+[1.946s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/package.xml
+[1.947s] Invoked command in '/home/main/main_ws/build/main_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/main/main_ws/build/main_motor

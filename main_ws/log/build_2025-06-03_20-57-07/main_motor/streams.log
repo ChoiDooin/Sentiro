@@ -1,0 +1,27 @@
+[0.049s] Invoking command in '/home/main/main_ws/build/main_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target main_run_node[0m
+[0.097s] [ 33%] Built target test_node
+[0.097s] [ 66%] Built target send_arduino_node
+[0.100s] [100%] Built target main_run_node
+[0.122s] Invoked command in '/home/main/main_ws/build/main_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16
+[0.123s] Invoking command in '/home/main/main_ws/build/main_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/main/main_ws/build/main_motor
+[0.130s] -- Install configuration: ""
+[0.130s] -- Up-to-date: /home/main/main_ws/install/lib/main_motor/send_arduino_node
+[0.130s] -- Up-to-date: /home/main/main_ws/install/lib/main_motor/main_run_node
+[0.131s] -- Up-to-date: /home/main/main_ws/install/lib/main_motor/test_node
+[0.131s] -- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/package_run_dependencies/main_motor
+[0.131s] -- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/parent_prefix_path/main_motor
+[0.131s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/environment/ament_prefix_path.sh
+[0.131s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/environment/ament_prefix_path.dsv
+[0.131s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/environment/path.sh
+[0.131s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/environment/path.dsv
+[0.131s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/local_setup.bash
+[0.131s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/local_setup.sh
+[0.131s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/local_setup.zsh
+[0.131s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/local_setup.dsv
+[0.131s] -- Installing: /home/main/main_ws/install/share/main_motor/package.dsv
+[0.131s] -- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/packages/main_motor
+[0.131s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/cmake/main_motorConfig.cmake
+[0.132s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/cmake/main_motorConfig-version.cmake
+[0.132s] -- Up-to-date: /home/main/main_ws/install/share/main_motor/package.xml
+[0.422s] Invoked command in '/home/main/main_ws/build/main_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/main/main_ws/build/main_motor

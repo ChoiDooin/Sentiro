@@ -1,0 +1,19 @@
+[0.048s] Invoking command in '/home/main/main_ws/build/main_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[0.097s] [ 66%] Built target send_arduino_node
+[0.097s] [ 66%] Built target main_run_node
+[0.099s] [ 83%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test.cpp.o[0m
+[1.459s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:[m[K In member function ‘[01m[Kvoid TestNode::timerCallback()[m[K’:
+[1.459s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:79:33:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar[m[K’ to ‘[01m[Kconst uint8_t*[m[K’ {aka ‘[01m[Kconst unsigned char*[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.459s]    79 |             serial_port_2.write([01;31m[Kserial_step[m[K,1);
+[1.459s]       |                                 [01;31m[K^~~~~~~~~~~[m[K
+[1.459s]       |                                 [01;31m[K|[m[K
+[1.459s]       |                                 [01;31m[Kchar[m[K
+[1.459s] In file included from [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:2[m[K:
+[1.459s] [01m[K/home/main/main_ws/install/include/serial/serial.h:372:25:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Ksize_t serial::Serial::write(const uint8_t*, size_t)[m[K’
+[1.459s]   372 |   write ([01;36m[Kconst uint8_t *data[m[K, size_t size);
+[1.459s]       |          [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+[1.717s] gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test.cpp.o] Error 1
+[1.718s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/test_node.dir/all] Error 2
+[1.718s] gmake: *** [Makefile:146: all] Error 2
+[1.720s] Invoked command in '/home/main/main_ws/build/main_motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16

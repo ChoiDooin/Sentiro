@@ -1,0 +1,20 @@
+[0.027s] Invoking command in '/home/main/main_ws/build/main_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target main_run_node[0m
+[0.065s] [ 33%] Built target send_arduino_node
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/main_run_node.dir/src/main_run.cpp.o[0m
+[0.066s] [ 83%] Built target test_node
+[1.626s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:[m[K In member function ‘[01m[Kvoid MainRunNode::webDataCallback(std_msgs::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.626s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:156:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.626s]   156 |     void webDataCallback([01;35m[Kconst std_msgs::msg::Int64::SharedPtr msg[m[K)
+[1.627s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.636s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:[m[K In member function ‘[01m[Kvoid MainRunNode::timerCallback()[m[K’:
+[1.636s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:326:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived1[m[K’ was not declared in this scope
+[1.636s]   326 |             if ([01;31m[Kreceived1[m[K.find("Rotate Done") != std::string::npos) // 회전판 연결 아두이노에서 "Rotate done" 메시지를 받으면
+[1.636s]       |                 [01;31m[K^~~~~~~~~[m[K
+[1.640s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:330:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived2[m[K’ was not declared in this scope
+[1.640s]   330 |             else if ([01;31m[Kreceived2[m[K.find("Flap Down") != std::string::npos) // 플랩 DC 연결 아두이노에서 "Flap down" 메시지를 받으면
+[1.640s]       |                      [01;31m[K^~~~~~~~~[m[K
+[4.974s] gmake[2]: *** [CMakeFiles/main_run_node.dir/build.make:76: CMakeFiles/main_run_node.dir/src/main_run.cpp.o] Error 1
+[4.974s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/main_run_node.dir/all] Error 2
+[4.974s] gmake: *** [Makefile:146: all] Error 2
+[4.977s] Invoked command in '/home/main/main_ws/build/main_motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16

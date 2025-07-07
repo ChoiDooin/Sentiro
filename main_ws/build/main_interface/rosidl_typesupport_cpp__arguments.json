@@ -1,0 +1,27 @@
+{
+  "package_name": "main_interface",
+  "output_dir": "/home/main/main_ws/build/main_interface/rosidl_typesupport_cpp/main_interface",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface:srv/Battery.idl",
+    "/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface:srv/Calg.idl",
+    "/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface:srv/Color.idl",
+    "/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface:srv/Onoff.idl",
+    "/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface:srv/ResetOdom.idl",
+    "/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface:srv/SaveColor.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface/srv/Battery.idl",
+    "/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface/srv/Calg.idl",
+    "/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface/srv/Color.idl",
+    "/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface/srv/Onoff.idl",
+    "/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface/srv/ResetOdom.idl",
+    "/home/main/main_ws/build/main_interface/rosidl_adapter/main_interface/srv/SaveColor.idl"
+  ]
+}

@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/mqtt/mqtt.egg-info
+writing ../../build/mqtt/mqtt.egg-info/PKG-INFO
+writing dependency_links to ../../build/mqtt/mqtt.egg-info/dependency_links.txt
+writing entry points to ../../build/mqtt/mqtt.egg-info/entry_points.txt
+writing requirements to ../../build/mqtt/mqtt.egg-info/requires.txt
+writing top-level names to ../../build/mqtt/mqtt.egg-info/top_level.txt
+writing manifest file '../../build/mqtt/mqtt.egg-info/SOURCES.txt'
+reading manifest file '../../build/mqtt/mqtt.egg-info/SOURCES.txt'
+writing manifest file '../../build/mqtt/mqtt.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/main/main_ws/build/mqtt/build
+creating /home/main/main_ws/build/mqtt/build/lib
+creating /home/main/main_ws/build/mqtt/build/lib/mqtt
+copying mqtt/subscriber.py -> /home/main/main_ws/build/mqtt/build/lib/mqtt
+copying mqtt/__init__.py -> /home/main/main_ws/build/mqtt/build/lib/mqtt
+running install
+running install_lib
+creating /home/main/main_ws/install/lib/python3.10/site-packages/mqtt
+copying /home/main/main_ws/build/mqtt/build/lib/mqtt/subscriber.py -> /home/main/main_ws/install/lib/python3.10/site-packages/mqtt
+copying /home/main/main_ws/build/mqtt/build/lib/mqtt/__init__.py -> /home/main/main_ws/install/lib/python3.10/site-packages/mqtt
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/mqtt/subscriber.py to subscriber.cpython-310.pyc
+byte-compiling /home/main/main_ws/install/lib/python3.10/site-packages/mqtt/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/mqtt -> /home/main/main_ws/install/share/ament_index/resource_index/packages
+copying package.xml -> /home/main/main_ws/install/share/mqtt
+running install_egg_info
+Copying ../../build/mqtt/mqtt.egg-info to /home/main/main_ws/install/lib/python3.10/site-packages/mqtt-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sub script to /home/main/main_ws/install/lib/mqtt
+writing list of installed files to '/home/main/main_ws/build/mqtt/install.log'

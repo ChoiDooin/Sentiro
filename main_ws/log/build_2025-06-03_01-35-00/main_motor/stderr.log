@@ -1,0 +1,12 @@
+[01m[K/home/main/main_ws/src/main_motor/src/test.cpp:[m[K In member function ‘[01m[Kvoid TestNode::timerCallback()[m[K’:
+[01m[K/home/main/main_ws/src/main_motor/src/test.cpp:68:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_step[m[K’ was not declared in this scope; did you mean ‘[01m[Kserial_port_1[m[K’?
+   68 |             [01;31m[Kserial_step[m[K = "9\n";
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[Kserial_port_1[m[K
+[01m[K/home/main/main_ws/src/main_motor/src/test.cpp:76:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_step[m[K’ was not declared in this scope; did you mean ‘[01m[Kserial_port_1[m[K’?
+   76 |             serial_port_2.write([01;31m[Kserial_step[m[K);
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+      |                                 [32m[Kserial_port_1[m[K
+gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

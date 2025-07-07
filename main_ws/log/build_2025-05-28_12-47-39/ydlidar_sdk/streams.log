@@ -1,0 +1,342 @@
+[0.191s] Invoking command in '/home/main/main_ws/build/ydlidar_sdk': /usr/bin/cmake /home/main/main_ws/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/main/main_ws/install
+[0.193s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.194s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.194s]   CMake.
+[0.194s] 
+[0.194s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.194s]   CMake that the project does not need compatibility with older versions.
+[0.194s] 
+[0.194s] [0m
+[0.245s] -- The C compiler identification is GNU 11.4.0
+[0.311s] -- The CXX compiler identification is GNU 11.4.0
+[0.320s] -- Detecting C compiler ABI info
+[0.385s] -- Detecting C compiler ABI info - done
+[0.396s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.396s] -- Detecting C compile features
+[0.396s] -- Detecting C compile features - done
+[0.399s] -- Detecting CXX compiler ABI info
+[0.480s] -- Detecting CXX compiler ABI info - done
+[0.491s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.491s] -- Detecting CXX compile features
+[0.491s] -- Detecting CXX compile features - done
+[0.493s] [0mCMake Deprecation Warning at CMakeLists.txt:44 (cmake_policy):
+[0.493s]   The OLD behavior for policy CMP0053 will be removed from a future version
+[0.493s]   of CMake.
+[0.493s] 
+[0.494s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.494s]   policies are deprecated and that a policy should be set to OLD only under
+[0.494s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.494s]   behavior and not rely on setting a policy to OLD.
+[0.494s] 
+[0.494s] [0m
+[0.494s] [0mCMake Deprecation Warning at CMakeLists.txt:47 (cmake_policy):
+[0.494s]   The OLD behavior for policy CMP0037 will be removed from a future version
+[0.494s]   of CMake.
+[0.494s] 
+[0.494s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.494s]   policies are deprecated and that a policy should be set to OLD only under
+[0.494s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.494s]   behavior and not rely on setting a policy to OLD.
+[0.494s] 
+[0.494s] [0m
+[0.495s] [0mCMake Deprecation Warning at CMakeLists.txt:50 (cmake_policy):
+[0.495s]   The OLD behavior for policy CMP0043 will be removed from a future version
+[0.495s]   of CMake.
+[0.495s] 
+[0.495s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.495s]   policies are deprecated and that a policy should be set to OLD only under
+[0.495s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.495s]   behavior and not rely on setting a policy to OLD.
+[0.495s] 
+[0.495s] [0m
+[0.495s] -- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) 
+[0.515s] -- Found PythonInterp: /usr/bin/python3.10 (found version "3.10.12") 
+[0.523s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[0.666s] -- Found GTest: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.11.0")  
+[0.666s] [0mCMake Deprecation Warning at core/CMakeLists.txt:1 (cmake_minimum_required):
+[0.666s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.667s]   CMake.
+[0.667s] 
+[0.667s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.667s]   CMake that the project does not need compatibility with older versions.
+[0.667s] 
+[0.667s] [0m
+[0.673s] [0mCMake Deprecation Warning at samples/CMakeLists.txt:2 (cmake_minimum_required):
+[0.673s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.673s]   CMake.
+[0.673s] 
+[0.673s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.673s]   CMake that the project does not need compatibility with older versions.
+[0.673s] 
+[0.673s] [0m
+[0.675s] -- build test is ON.....
+[0.676s] [0mCMake Deprecation Warning at cmake/install_package.cmake:101 (cmake_policy):
+[0.676s]   The OLD behavior for policy CMP0026 will be removed from a future version
+[0.677s]   of CMake.
+[0.677s] 
+[0.677s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.677s]   policies are deprecated and that a policy should be set to OLD only under
+[0.677s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.677s]   behavior and not rely on setting a policy to OLD.
+[0.677s] Call Stack (most recent call first):
+[0.677s]   CMakeLists.txt:161 (install_package)
+[0.677s] 
+[0.677s] [0m
+[0.679s] [33mCMake Warning (dev) at cmake/install_package.cmake:191 (install):
+[0.679s]   Policy CMP0062 is not set: Disallow install() of export() result.  Run
+[0.679s]   "cmake --help-policy CMP0062" for policy details.  Use the cmake_policy
+[0.679s]   command to set the policy and suppress this warning.
+[0.680s] 
+[0.680s]   The file
+[0.680s] 
+[0.680s]     /home/main/main_ws/build/ydlidar_sdk/ydlidar_sdkTargets.cmake
+[0.680s] 
+[0.680s]   was generated by the export() command.  It should not be installed with the
+[0.680s]   install() command.  Use the install(EXPORT) mechanism instead.  See the
+[0.680s]   cmake-packages(7) manual for more.
+[0.680s] 
+[0.680s] Call Stack (most recent call first):
+[0.680s]   CMakeLists.txt:161 (install_package)
+[0.680s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.681s] [0m
+[0.689s] -- 
+[0.690s] -- +===========================================================================+
+[0.690s] -- |         Resulting configuration for                             |
+[0.690s] -- +===========================================================================+
+[0.690s] --  _________________________ PLATFORM _____________________________
+[0.690s] --  Host                        : Linux6.8.0-59-genericx86_64
+[0.690s] --  Is the system big endian?   :  No 
+[0.690s] --  Word size (32/64 bit)       : 64
+[0.690s] --  CMake version               : 3.22.1
+[0.690s] --  CMake generator             : Unix Makefiles
+[0.690s] --  CMake build tool            : /usr/bin/gmake
+[0.690s] --  Compiler                    : GNU
+[0.690s] --  Configuration               : 
+[0.691s] -- 
+[0.691s] --  __________________________ OPTIONS _____________________________
+[0.691s] --  Build YDLidar-SDK as a shared library?　　 :  No 
+[0.691s] --  Build Examples?　　　　　　　　　　　　　　 : Yes 
+[0.691s] --  Build C Sharp API?　　　　　　　　　　　　 :  No 
+[0.691s] --  Build TEST?  			　　　 : Yes 
+[0.691s] -- 
+[0.691s] --  _________________________ INSTALL _____________________
+[0.691s] --  Install prefix                    : /home/main/main_ws/install
+[0.691s] -- 
+[0.691s] --  _______________________ WRAPPERS/BINDINGS ______________________
+[0.691s] --  Python bindings (pyydlidar)   :  No 
+[0.692s] --   - dep: Swig found?       :  No [Version: ]
+[0.692s] --   - dep: PythonLibs found?  : Yes [Version: 3.10.12]
+[0.692s] -- 
+[0.692s] -- Configuring done
+[0.711s] -- Generating done
+[0.718s] -- Build files have been written to: /home/main/main_ws/build/ydlidar_sdk
+[0.727s] Invoked command in '/home/main/main_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake /home/main/main_ws/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/main/main_ws/install
+[0.729s] Invoking command in '/home/main/main_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/main/main_ws/build/ydlidar_sdk -- -j16 -l16
+[0.786s] [ 12%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/serial.cpp.o[0m
+[0.786s] [ 12%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/SimpleSocket.cpp.o[0m
+[0.786s] [ 12%] [32mBuilding C object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/lock.c.o[0m
+[0.789s] [ 16%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/base/timer.cpp.o[0m
+[0.791s] [ 20%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/PassiveSocket.cpp.o[0m
+[0.791s] [ 25%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/common/ydlidar_def.cpp.o[0m
+[0.791s] [ 29%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ETLidarDriver.cpp.o[0m
+[0.794s] [ 33%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/ActiveSocket.cpp.o[0m
+[0.794s] [ 37%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o[0m
+[0.794s] [ 41%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o[0m
+[0.795s] [ 45%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/unix_serial.cpp.o[0m
+[0.802s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_driver.cpp.o[0m
+[0.830s] [ 54%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_sdk.cpp.o[0m
+[1.508s] In file included from [01m[K/home/main/main_ws/src/YDLidar-SDK/src/ydlidar_driver.h:49[m[K,
+[1.508s]                  from [01m[K/home/main/main_ws/src/YDLidar-SDK/src/CYdLidar.cpp:30[m[K:
+[1.508s] [01m[K/home/main/main_ws/src/YDLidar-SDK/./core/common/ydlidar_help.h:[m[K In function ‘[01m[Kbool ydlidar::core::common::ParseLaserDebugInfo(const LaserDebug&, device_info&)[m[K’:
+[1.508s] [01m[K/home/main/main_ws/src/YDLidar-SDK/./core/common/ydlidar_help.h:920:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksprintf[m[K’ writing a terminating nul past the end of the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-overflow=-Wformat-overflow=]8;;[m[K]
+[1.508s]   920 |       sprintf(reinterpret_cast<char *>(value.serialnum + 8), "%08d[01;35m[K"[m[K, Number);
+[1.508s]       |                                                                   [01;35m[K^[m[K
+[1.508s] [01m[K/home/main/main_ws/src/YDLidar-SDK/./core/common/ydlidar_help.h:920:14:[m[K [01;36m[Knote: [m[K‘[01m[Ksprintf[m[K’ output 9 bytes into a destination of size 8
+[1.508s]   920 |       [01;36m[Ksprintf(reinterpret_cast<char *>(value.serialnum + 8), "%08d", Number)[m[K;
+[1.508s]       |       [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.766s] [ 58%] [32m[1mLinking CXX static library libydlidar_sdk.a[0m
+[1.809s] [ 58%] Built target ydlidar_sdk
+[1.833s] [ 62%] [32mBuilding CXX object samples/CMakeFiles/etlidar_test.dir/etlidar_test.cpp.o[0m
+[1.833s] [ 70%] [32mBuilding C object samples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o[0m
+[1.833s] [ 70%] [32mBuilding CXX object samples/CMakeFiles/tof_test.dir/tof_test.cpp.o[0m
+[1.834s] [ 75%] [32mBuilding CXX object samples/CMakeFiles/ydlidar_test.dir/ydlidar_test.cpp.o[0m
+[1.838s] [ 79%] [32mBuilding CXX object test/CMakeFiles/lidar_test.dir/lidar_test.cpp.o[0m
+[1.842s] [01m[Kcc1:[m[K [01;35m[Kwarning: [m[Kcommand-line option ‘[01m[K-std=c++11[m[K’ is valid for C++/ObjC++ but not for C
+[1.856s] [01m[K/home/main/main_ws/src/YDLidar-SDK/samples/lidar_c_api_test.c:[m[K In function ‘[01m[Kmain[m[K’:
+[1.857s] [01m[K/home/main/main_ws/src/YDLidar-SDK/samples/lidar_c_api_test.c:102:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 3 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.857s]   102 |             fprintf(stdout, "Scan received[[01;35m[K%llu[m[K]: %u ranges is [%f]Hz\n",
+[1.857s]       |                                            [01;35m[K~~~^[m[K
+[1.857s]       |                                               [01;35m[K|[m[K
+[1.857s]       |                                               [01;35m[Klong long unsigned int[m[K
+[1.857s]       |                                            [32m[K%lu[m[K
+[1.857s]   103 |                     [32m[Kscan.stamp[m[K,
+[1.857s]       |                     [32m[K~~~~~~~~~~[m[K                 
+[1.857s]       |                         [32m[K|[m[K
+[1.857s]       |                         [32m[Kuint64_t {aka long unsigned int}[m[K
+[1.883s] [ 83%] [32m[1mLinking CXX executable ../lidar_c_api_test[0m
+[2.146s] [ 83%] Built target lidar_c_api_test
+[2.249s] [01m[K/home/main/main_ws/src/YDLidar-SDK/samples/etlidar_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.249s] [01m[K/home/main/main_ws/src/YDLidar-SDK/samples/etlidar_test.cpp:178:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 3 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.250s]   178 |       fprintf(stdout, "Scan received[[01;35m[K%llu[m[K]: %u ranges is [%f]Hz\n",
+[2.250s]       |                                      [01;35m[K~~~^[m[K
+[2.250s]       |                                         [01;35m[K|[m[K
+[2.250s]       |                                         [01;35m[Klong long unsigned int[m[K
+[2.250s]       |                                      [32m[K%lu[m[K
+[2.250s]   179 |               [32m[Kscan.stamp[m[K,
+[2.250s]       |               [32m[K~~~~~~~~~~[m[K                 
+[2.250s]       |                    [32m[K|[m[K
+[2.250s]       |                    [32m[Kuint64_t {aka long unsigned int}[m[K
+[2.276s] [01m[K/home/main/main_ws/src/YDLidar-SDK/samples/ydlidar_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.276s] [01m[K/home/main/main_ws/src/YDLidar-SDK/samples/ydlidar_test.cpp:262:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 3 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.276s]   262 |       fprintf(stdout, "Scan received[[01;35m[K%llu[m[K]: %u ranges is [%f]Hz\n",
+[2.276s]       |                                      [01;35m[K~~~^[m[K
+[2.276s]       |                                         [01;35m[K|[m[K
+[2.277s]       |                                         [01;35m[Klong long unsigned int[m[K
+[2.277s]       |                                      [32m[K%lu[m[K
+[2.277s]   263 |               [32m[Kscan.stamp[m[K,
+[2.277s]       |               [32m[K~~~~~~~~~~[m[K                 
+[2.277s]       |                    [32m[K|[m[K
+[2.277s]       |                    [32m[Kuint64_t {aka long unsigned int}[m[K
+[2.284s] [01m[K/home/main/main_ws/src/YDLidar-SDK/samples/tof_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.284s] [01m[K/home/main/main_ws/src/YDLidar-SDK/samples/tof_test.cpp:259:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 3 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.285s]   259 |       fprintf(stdout, "Scan received[[01;35m[K%llu[m[K]: %u ranges is [%f]Hz\n",
+[2.285s]       |                                      [01;35m[K~~~^[m[K
+[2.285s]       |                                         [01;35m[K|[m[K
+[2.285s]       |                                         [01;35m[Klong long unsigned int[m[K
+[2.285s]       |                                      [32m[K%lu[m[K
+[2.285s]   260 |               [32m[Kscan.stamp[m[K,
+[2.285s]       |               [32m[K~~~~~~~~~~[m[K                 
+[2.285s]       |                    [32m[K|[m[K
+[2.285s]       |                    [32m[Kuint64_t {aka long unsigned int}[m[K
+[2.333s] [ 87%] [32m[1mLinking CXX executable ../etlidar_test[0m
+[2.514s] [ 91%] [32m[1mLinking CXX executable ../ydlidar_test[0m
+[2.522s] [ 95%] [32m[1mLinking CXX executable ../tof_test[0m
+[2.551s] [ 95%] Built target etlidar_test
+[2.681s] [ 95%] Built target tof_test
+[2.722s] [ 95%] Built target ydlidar_test
+[2.853s] [100%] [32m[1mLinking CXX executable lidar_test[0m
+[3.065s] [100%] Built target lidar_test
+[3.084s] Invoked command in '/home/main/main_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/main/main_ws/build/ydlidar_sdk -- -j16 -l16
+[3.087s] Invoking command in '/home/main/main_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/main/main_ws/build/ydlidar_sdk
+[3.099s] -- Install configuration: ""
+[3.099s] -- Installing: /home/main/main_ws/install/include/core/base/datatype.h
+[3.099s] -- Installing: /home/main/main_ws/install/include/core/base/locker.h
+[3.099s] -- Installing: /home/main/main_ws/install/include/core/base/thread.h
+[3.100s] -- Installing: /home/main/main_ws/install/include/core/base/timer.h
+[3.100s] -- Installing: /home/main/main_ws/install/include/core/base/typedef.h
+[3.100s] -- Installing: /home/main/main_ws/install/include/core/base/utils.h
+[3.100s] -- Installing: /home/main/main_ws/install/include/core/base/v8stdint.h
+[3.100s] -- Installing: /home/main/main_ws/install/include/core/base/ydlidar.h
+[3.100s] -- Installing: /home/main/main_ws/install/include/core/common/ChannelDevice.h
+[3.100s] -- Installing: /home/main/main_ws/install/include/core/common/DriverInterface.h
+[3.100s] -- Installing: /home/main/main_ws/install/include/core/common/ydlidar_datatype.h
+[3.101s] -- Installing: /home/main/main_ws/install/include/core/common/ydlidar_def.h
+[3.101s] -- Installing: /home/main/main_ws/install/include/core/common/ydlidar_help.h
+[3.101s] -- Installing: /home/main/main_ws/install/include/core/common/ydlidar_protocol.h
+[3.101s] -- Installing: /home/main/main_ws/install/include/core/math/angles.h
+[3.101s] -- Installing: /home/main/main_ws/install/include/core/network/ActiveSocket.h
+[3.101s] -- Installing: /home/main/main_ws/install/include/core/network/PassiveSocket.h
+[3.101s] -- Installing: /home/main/main_ws/install/include/core/network/SimpleSocket.h
+[3.102s] -- Installing: /home/main/main_ws/install/include/core/network/StatTimer.h
+[3.102s] -- Installing: /home/main/main_ws/install/include/core/serial/common.h
+[3.102s] -- Installing: /home/main/main_ws/install/include/core/serial/serial.h
+[3.102s] -- Installing: /home/main/main_ws/install/include/core/serial/impl/unix/lock.h
+[3.103s] -- Installing: /home/main/main_ws/install/include/core/serial/impl/unix/unix.h
+[3.103s] -- Installing: /home/main/main_ws/install/include/core/serial/impl/unix/unix_serial.h
+[3.103s] -- Installing: /home/main/main_ws/install/include/src/CYdLidar.h
+[3.103s] -- Installing: /home/main/main_ws/install/include/src/ETLidarDriver.h
+[3.103s] -- Installing: /home/main/main_ws/install/include/src/ydlidar_driver.h
+[3.104s] -- Installing: /home/main/main_ws/install/include/src/ydlidar_sdk.h
+[3.104s] -- Installing: /home/main/main_ws/install/include/ydlidar_config.h
+[3.104s] -- Installing: /home/main/main_ws/install/lib/libydlidar_sdk.a
+[3.107s] -- Installing: /home/main/main_ws/install/lib/pkgconfig/YDLIDAR_SDK.pc
+[3.107s] -- Installing: /home/main/main_ws/install/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake
+[3.107s] -- Installing: /home/main/main_ws/install/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake
+[3.107s] -- Installing: /home/main/main_ws/install/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake
+[3.107s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake
+[3.107s] -- Up-to-date: /home/main/main_ws/install/share/YDLIDAR_SDK
+[3.108s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/PackageConfig.cmake.in
+[3.108s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in
+[3.108s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/common
+[3.108s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/common/ydlidar_base.cmake
+[3.108s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/common/ydlidar_parse.cmake
+[3.108s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/PkgConfig.pc.in
+[3.108s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/FindPackage.cmake.in
+[3.108s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/script_show_final_summary.cmake
+[3.108s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/install_package.cmake
+[3.109s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/cmake_uninstall.cmake.in
+[3.109s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/LICENSE.txt
+[3.109s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/README.md
+[3.109s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc
+[3.109s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/tutorials
+[3.109s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md
+[3.109s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md
+[3.110s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md
+[3.110s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md
+[3.110s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md
+[3.110s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/Dataset.md
+[3.110s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/Diagram.md
+[3.110s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf
+[3.112s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md
+[3.112s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/FAQs
+[3.112s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md
+[3.112s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md
+[3.112s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md
+[3.112s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md
+[3.112s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/FAQs/README.md
+[3.112s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md
+[3.113s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md
+[3.113s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/quickstart
+[3.113s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md
+[3.113s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/quickstart/README.md
+[3.113s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/Tutorials.md
+[3.113s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/SDK.pdf
+[3.116s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/images
+[3.116s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/images/sdk_architecture.png
+[3.116s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/images/frame.png
+[3.116s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/images/YDLidar.jpg
+[3.116s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/images/angle_q2.png
+[3.116s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/images/EAI.png
+[3.117s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/images/sequence.png
+[3.117s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/images/sdk_init.png
+[3.117s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/images/FlowChart.png
+[3.118s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/images/system_workflow.png
+[3.118s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/images/communication_mechanism.png
+[3.118s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/images/sdk_scanning.png
+[3.118s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/images/frame_intensity.png
+[3.119s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/images/YDLidar.png
+[3.119s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html
+[3.119s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf
+[3.120s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto
+[3.120s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md
+[3.120s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md
+[3.120s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md
+[3.120s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md
+[3.120s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md
+[3.120s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/images
+[3.120s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/images/vscode
+[3.120s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png
+[3.122s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg
+[3.123s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png
+[3.123s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png
+[3.123s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/images/cpack.png
+[3.123s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png
+[3.124s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png
+[3.124s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/images/sequence.png
+[3.124s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png
+[3.124s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png
+[3.125s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png
+[3.125s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png
+[3.125s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png
+[3.125s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png
+[3.125s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md
+[3.126s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/README.md
+[3.126s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md
+[3.126s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/README.md
+[3.126s] -- Installing: /home/main/main_ws/install/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md
+[3.126s] -- Installing: /home/main/main_ws/install/startup/initenv.sh
+[3.128s] -- Installing: /home/main/main_ws/install/bin/etlidar_test
+[3.129s] -- Installing: /home/main/main_ws/install/bin/tof_test
+[3.130s] -- Installing: /home/main/main_ws/install/bin/ydlidar_test
+[3.131s] -- Installing: /home/main/main_ws/install/bin/lidar_c_api_test
+[3.136s] Invoked command in '/home/main/main_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/main/main_ws/build/ydlidar_sdk

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-394bd7ce954c126ade52.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "main_motor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "main_motor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_motor_uninstall-09875651f8a2f3358e70.json",
+					"name" : "main_motor_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main_run_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_run_node-4efa7052946b5bf42199.json",
+					"name" : "main_run_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "send_arduino_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-send_arduino_node-e65d25037becfe762b87.json",
+					"name" : "send_arduino_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_node-637f63b8460684d0a788.json",
+					"name" : "test_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9b900f01e3af5e599dbd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/main/main_ws/build/main_motor",
+		"source" : "/home/main/main_ws/src/main_motor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

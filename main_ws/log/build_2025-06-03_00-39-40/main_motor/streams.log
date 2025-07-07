@@ -1,0 +1,37 @@
+[0.031s] Invoking command in '/home/main/main_ws/build/main_motor': AMENT_PREFIX_PATH=/home/main/main_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/main/main_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/main/main_ws/install/lib:${LD_LIBRARY_PATH} PATH=/home/main/main_ws/install/bin:${PATH} PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target main_run_node[0m
+[0.077s] [ 33%] Built target send_arduino_node
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test.cpp.o[0m
+[0.085s] [ 83%] Built target main_run_node
+[1.527s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_time[m[K’ does not name a type
+[1.527s]    62 |     [01;31m[Kstart_time[m[K = this->now();
+[1.527s]       |     [01;31m[K^~~~~~~~~~[m[K
+[1.528s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:78:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.528s]    78 | }
+[1.528s]       |  [01;31m[K^[m[K
+[1.528s]       |  [32m[K;[m[K
+[1.528s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:[m[K In constructor ‘[01m[KTestNode::TestNode()[m[K’:
+[1.528s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:7:34:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::Duration::Duration()[m[K’ is private within this context
+[1.528s]     7 |     TestNode() : Node("test_node"[01;31m[K)[m[K
+[1.528s]       |                                  [01;31m[K^[m[K
+[1.528s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[1.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[1.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[1.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.528s]                  from [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:1[m[K:
+[1.528s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:151:3:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.528s]   151 |   [01;36m[KDuration[m[K() = default;
+[1.528s]       |   [01;36m[K^~~~~~~~[m[K
+[1.810s] gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test.cpp.o] Error 1
+[1.810s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/test_node.dir/all] Error 2
+[1.811s] gmake: *** [Makefile:146: all] Error 2
+[1.813s] Invoked command in '/home/main/main_ws/build/main_motor' returned '2': AMENT_PREFIX_PATH=/home/main/main_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/main/main_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/main/main_ws/install/lib:${LD_LIBRARY_PATH} PATH=/home/main/main_ws/install/bin:${PATH} PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16

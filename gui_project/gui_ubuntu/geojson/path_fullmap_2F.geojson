@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "path_fullmap",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "id": 0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 3.98, 65.799999999999784 ], [ 3.98, 64.999999999999801 ], [ 3.98, 64.19999999999979 ], [ 3.986206896551753, 63.462068965517361 ], [ 4.5, 61.4 ], [ 4.5, 46.534706785889412 ], [ 4.5, 42.0 ] ] ] } },
-{ "type": "Feature", "properties": { "id": 0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 4.5, 47.0 ], [ 23.0, 47.0 ] ] ] } }
-]
-}

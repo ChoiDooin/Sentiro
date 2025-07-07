@@ -1,0 +1,60 @@
+[0.080s] Invoking command in '/home/main/main_ws/build/main_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[0.123s] [ 33%] Built target main_run_node
+[0.126s] [ 66%] Built target send_arduino_node
+[0.129s] [ 83%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test.cpp.o[0m
+[1.499s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:58:29:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K'0'[m[K’ from ‘[01m[Kchar[m[K’ to ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+[1.499s]    58 |     std::string received1 = [01;31m[K'0'[m[K;
+[1.499s]       |                             [01;31m[K^~~[m[K
+[1.499s]       |                             [01;31m[K|[m[K
+[1.499s]       |                             [01;31m[Kchar[m[K
+[1.499s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:59:29:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K'0'[m[K’ from ‘[01m[Kchar[m[K’ to ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+[1.499s]    59 |     std::string received2 = [01;31m[K'0'[m[K;
+[1.499s]       |                             [01;31m[K^~~[m[K
+[1.499s]       |                             [01;31m[K|[m[K
+[1.499s]       |                             [01;31m[Kchar[m[K
+[1.509s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.510s]                  from [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:1[m[K:
+[1.510s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:[m[K In member function ‘[01m[Kvoid TestNode::timerCallback()[m[K’:
+[1.510s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:81:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%c[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.510s]    81 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Received '%c' to port 1"[m[K, received1);
+[1.510s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.510s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:81:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.510s]    81 |             RCLCPP_INFO(this->get_logger(), "Received '[01;36m[K%c[m[K' to port 1", received1);
+[1.510s]       |                                                        [01;36m[K~^[m[K
+[1.510s]       |                                                         [01;36m[K|[m[K
+[1.510s]       |                                                         [01;36m[Kint[m[K
+[1.510s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.510s]                  from [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:1[m[K:
+[1.510s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:88:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%c[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.510s]    88 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sent '%c' to port 2"[m[K, received2);
+[1.510s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.510s] [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:88:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.510s]    88 |             RCLCPP_INFO(this->get_logger(), "Sent '[01;36m[K%c[m[K' to port 2", received2);
+[1.511s]       |                                                    [01;36m[K~^[m[K
+[1.511s]       |                                                     [01;36m[K|[m[K
+[1.511s]       |                                                     [01;36m[Kint[m[K
+[1.772s] gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test.cpp.o] Error 1
+[1.772s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/test_node.dir/all] Error 2
+[1.772s] gmake: *** [Makefile:146: all] Error 2
+[1.774s] Invoked command in '/home/main/main_ws/build/main_motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16

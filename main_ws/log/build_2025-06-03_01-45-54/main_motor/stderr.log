@@ -1,0 +1,23 @@
+[01m[K/home/main/main_ws/src/main_motor/src/test.cpp:54:24:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   54 |     char serial_step = [01;31m[K"0\n"[m[K;
+      |                        [01;31m[K^~~~~[m[K
+      |                        [01;31m[K|[m[K
+      |                        [01;31m[Kconst char*[m[K
+[01m[K/home/main/main_ws/src/main_motor/src/test.cpp:[m[K In member function ‘[01m[Kvoid TestNode::timerCallback()[m[K’:
+[01m[K/home/main/main_ws/src/main_motor/src/test.cpp:68:27:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   68 |             serial_step = [01;31m[K"9\n"[m[K;
+      |                           [01;31m[K^~~~~[m[K
+      |                           [01;31m[K|[m[K
+      |                           [01;31m[Kconst char*[m[K
+[01m[K/home/main/main_ws/src/main_motor/src/test.cpp:76:33:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar[m[K’ to ‘[01m[Kconst uint8_t*[m[K’ {aka ‘[01m[Kconst unsigned char*[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   76 |             serial_port_2.write([01;31m[Kserial_step[m[K,1);
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+      |                                 [01;31m[K|[m[K
+      |                                 [01;31m[Kchar[m[K
+In file included from [01m[K/home/main/main_ws/src/main_motor/src/test.cpp:2[m[K:
+[01m[K/home/main/main_ws/install/include/serial/serial.h:372:25:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Ksize_t serial::Serial::write(const uint8_t*, size_t)[m[K’
+  372 |   write ([01;36m[Kconst uint8_t *data[m[K, size_t size);
+      |          [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

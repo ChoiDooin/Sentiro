@@ -1,0 +1,75 @@
+[0.044s] Invoking command in '/home/main/main_ws/build/main_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[0.079s] [ 16%] [32mBuilding CXX object CMakeFiles/main_run_node.dir/src/main_run.cpp.o[0m
+[0.079s] [ 50%] Built target send_arduino_node
+[0.083s] [ 83%] Built target test_node
+[1.554s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:[m[K In member function ‘[01m[Kvoid MainRunNode::webDataCallback(std_msgs::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.554s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:146:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.554s]   146 |     void webDataCallback([01;35m[Kconst std_msgs::msg::Int64::SharedPtr msg[m[K)
+[1.554s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.564s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:[m[K In member function ‘[01m[Kvoid MainRunNode::timerCallback()[m[K’:
+[1.564s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:323:13:[m[K [01;31m[Kerror: [m[K‘[01m[Know_time[m[K’ was not declared in this scope
+[1.564s]   323 |             [01;31m[Know_time[m[K = this->now();
+[1.564s]       |             [01;31m[K^~~~~~~~[m[K
+[1.569s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:324:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kelapsed_time[m[K’ was not declared in this scope
+[1.569s]   324 |             [01;31m[Kelapsed_time[m[K = now_time - start_time; // 현재 시간과 시작 시간의 차이 계산
+[1.569s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.573s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:324:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kstrptime[m[K’?
+[1.574s]   324 |             elapsed_time = now_time - [01;31m[Kstart_time[m[K; // 현재 시간과 시작 시간의 차이 계산
+[1.574s]       |                                       [01;31m[K^~~~~~~~~~[m[K
+[1.574s]       |                                       [32m[Kstrptime[m[K
+[1.576s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:391:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krotate[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::_V2::rotate[m[K’?
+[1.576s]   391 |                     [01;31m[Krotate[m[K = true;
+[1.576s]       |                     [01;31m[K^~~~~~[m[K
+[1.576s]       |                     [32m[Kstd::_V2::rotate[m[K
+[1.576s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[1.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[1.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.576s]                  from [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:1[m[K:
+[1.576s] [01m[K/usr/include/c++/11/bits/stl_algo.h:1405:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::_V2::rotate[m[K’ declared here
+[1.576s]  1405 |     [01;36m[Krotate[m[K(_ForwardIterator __first, _ForwardIterator __middle,
+[1.576s]       |     [01;36m[K^~~~~~[m[K
+[1.580s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:395:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kflap[m[K’ was not declared in this scope
+[1.580s]   395 |                     [01;31m[Kflap[m[K = 1; // 플랩 하강 완료
+[1.580s]       |                     [01;31m[K^~~~[m[K
+[1.584s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:399:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear[m[K’ was not declared in this scope; did you mean ‘[01m[Klinkat[m[K’?
+[1.584s]   399 |                     [01;31m[Klinear[m[K = 1;
+[1.584s]       |                     [01;31m[K^~~~~~[m[K
+[1.584s]       |                     [32m[Klinkat[m[K
+[1.588s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:403:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kflap[m[K’ was not declared in this scope
+[1.588s]   403 |                     [01;31m[Kflap[m[K = 2;
+[1.588s]       |                     [01;31m[K^~~~[m[K
+[1.591s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:407:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear[m[K’ was not declared in this scope; did you mean ‘[01m[Klinkat[m[K’?
+[1.591s]   407 |                     [01;31m[Klinear[m[K = 2;
+[1.592s]       |                     [01;31m[K^~~~~~[m[K
+[1.592s]       |                     [32m[Klinkat[m[K
+[1.595s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:410:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kflap[m[K’ was not declared in this scope
+[1.595s]   410 |                 if ([01;31m[Kflap[m[K == 0 && rotate == true){
+[1.595s]       |                     [01;31m[K^~~~[m[K
+[1.595s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:410:34:[m[K [01;31m[Kerror: [m[K‘[01m[Krotate[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::_V2::rotate[m[K’?
+[1.595s]   410 |                 if (flap == 0 && [01;31m[Krotate[m[K == true){
+[1.595s]       |                                  [01;31m[K^~~~~~[m[K
+[1.595s]       |                                  [32m[Kstd::_V2::rotate[m[K
+[1.595s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[1.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[1.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.595s]                  from [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:1[m[K:
+[1.595s] [01m[K/usr/include/c++/11/bits/stl_algo.h:1405:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::_V2::rotate[m[K’ declared here
+[1.595s]  1405 |     [01;36m[Krotate[m[K(_ForwardIterator __first, _ForwardIterator __middle,
+[1.596s]       |     [01;36m[K^~~~~~[m[K
+[1.598s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:415:25:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear[m[K’ was not declared in this scope; did you mean ‘[01m[Klinkat[m[K’?
+[1.598s]   415 |                 else if([01;31m[Klinear[m[K == 1){
+[1.599s]       |                         [01;31m[K^~~~~~[m[K
+[1.599s]       |                         [32m[Klinkat[m[K
+[1.603s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:417:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kstrptime[m[K’?
+[1.603s]   417 |                     [01;31m[Kstart_time[m[K = this->now(); // 현재 시간을 시작 시간으로 저장
+[1.603s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[1.603s]       |                     [32m[Kstrptime[m[K
+[4.698s] gmake[2]: *** [CMakeFiles/main_run_node.dir/build.make:76: CMakeFiles/main_run_node.dir/src/main_run.cpp.o] Error 1
+[4.698s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/main_run_node.dir/all] Error 2
+[4.698s] gmake: *** [Makefile:146: all] Error 2
+[4.700s] Invoked command in '/home/main/main_ws/build/main_motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16

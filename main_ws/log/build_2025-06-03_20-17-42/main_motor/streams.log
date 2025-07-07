@@ -1,0 +1,44 @@
+[0.020s] Invoking command in '/home/main/main_ws/build/main_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target main_run_node[0m
+[0.062s] [ 66%] Built target test_node
+[0.062s] [ 66%] Built target send_arduino_node
+[0.066s] [ 83%] [32mBuilding CXX object CMakeFiles/main_run_node.dir/src/main_run.cpp.o[0m
+[1.525s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:[m[K In member function ‘[01m[Kvoid MainRunNode::webDataCallback(std_msgs::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.525s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:153:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.525s]   153 |     void webDataCallback([01;35m[Kconst std_msgs::msg::Int64::SharedPtr msg[m[K)
+[1.525s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.532s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.532s]                  from [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:1[m[K:
+[1.532s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:[m[K In member function ‘[01m[Kvoid MainRunNode::timerCallback()[m[K’:
+[1.532s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:313:156:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+[1.532s]   313 |             RCLCPP_INFO(this->get_logger(), "Serial step: %d, Step: %d, Cam distance: %f, Linear vel: %f, Angular vel: %f, person_recog: %d", serial_step, [01;31m[Ks[m[K't'ep_, cam_distance, pub_linear_x, pub_angular_z, person_recog);
+[1.532s]       |                                                                                                                                                            [01;31m[K^[m[K
+[1.535s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:327:156:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+[1.535s]   327 |             RCLCPP_INFO(this->get_logger(), "Serial step: %d, Step: %d, Cam distance: %f, Linear vel: %f, Angular vel: %f, person_recog: %d", serial_step, [01;31m[Ks[m[K't'ep_, cam_distance, pub_linear_x, pub_angular_z, person_recog);
+[1.535s]       |                                                                                                                                                            [01;31m[K^[m[K
+[1.538s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:346:156:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+[1.538s]   346 |             RCLCPP_INFO(this->get_logger(), "Serial step: %d, Step: %d, Cam distance: %f, Linear vel: %f, Angular vel: %f, person_recog: %d", serial_step, [01;31m[Ks[m[K't'ep_, cam_distance, pub_linear_x, pub_angular_z, person_recog);
+[1.538s]       |                                                                                                                                                            [01;31m[K^[m[K
+[1.541s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:360:156:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+[1.541s]   360 |             RCLCPP_INFO(this->get_logger(), "Serial step: %d, Step: %d, Cam distance: %f, Linear vel: %f, Angular vel: %f, person_recog: %d", serial_step, [01;31m[Ks[m[K't'ep_, cam_distance, pub_linear_x, pub_angular_z, person_recog);
+[1.541s]       |                                                                                                                                                            [01;31m[K^[m[K
+[1.543s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:448:36:[m[K [01;31m[Kerror: [m[Kunable to find character literal operator ‘[01m[Koperator""erial_step[m[K’ with ‘[01m[Kchar[m[K’ argument
+[1.543s]   448 |                 prev_serial_step = [01;31m[K's'erial_step[m[K; /'/' 이전 단계 저장
+[1.543s]       |                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[1.543s] [01m[K/home/main/main_ws/src/main_motor/src/main_run.cpp:448:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+[1.543s]   448 |                 prev_serial_step = 's'erial_step; [01;31m[K/[m[K'/' 이전 단계 저장
+[1.543s]       |                                                   [01;31m[K^[m[K
+[4.610s] gmake[2]: *** [CMakeFiles/main_run_node.dir/build.make:76: CMakeFiles/main_run_node.dir/src/main_run.cpp.o] Error 1
+[4.610s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/main_run_node.dir/all] Error 2
+[4.610s] gmake: *** [Makefile:146: all] Error 2
+[4.612s] Invoked command in '/home/main/main_ws/build/main_motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/main/main_ws/build/main_motor -- -j16 -l16

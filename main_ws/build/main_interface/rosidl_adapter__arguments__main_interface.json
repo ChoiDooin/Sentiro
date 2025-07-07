@@ -1,0 +1,11 @@
+{
+  "package_name": "main_interface",
+  "non_idl_tuples": [
+    "/home/main/main_ws/src/main_interface:srv/Battery.srv",
+    "/home/main/main_ws/src/main_interface:srv/Calg.srv",
+    "/home/main/main_ws/src/main_interface:srv/Color.srv",
+    "/home/main/main_ws/src/main_interface:srv/Onoff.srv",
+    "/home/main/main_ws/src/main_interface:srv/ResetOdom.srv",
+    "/home/main/main_ws/src/main_interface:srv/SaveColor.srv"
+  ]
+}

@@ -1,0 +1,22 @@
+[0.564s] Invoking command in '/home/main/main_ws/src/main_bringup': PYTHONPATH=/home/main/main_ws/build/main_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_bringup build --build-base /home/main/main_ws/build/main_bringup/build install --record /home/main/main_ws/build/main_bringup/install.log --single-version-externally-managed install_data
+[0.715s] running egg_info
+[0.716s] writing ../../build/main_bringup/main_bringup.egg-info/PKG-INFO
+[0.719s] writing dependency_links to ../../build/main_bringup/main_bringup.egg-info/dependency_links.txt
+[0.720s] writing entry points to ../../build/main_bringup/main_bringup.egg-info/entry_points.txt
+[0.720s] writing requirements to ../../build/main_bringup/main_bringup.egg-info/requires.txt
+[0.720s] writing top-level names to ../../build/main_bringup/main_bringup.egg-info/top_level.txt
+[0.721s] reading manifest file '../../build/main_bringup/main_bringup.egg-info/SOURCES.txt'
+[0.722s] writing manifest file '../../build/main_bringup/main_bringup.egg-info/SOURCES.txt'
+[0.722s] running build
+[0.722s] running build_py
+[0.723s] running install
+[0.723s] running install_lib
+[0.725s] running install_data
+[0.725s] running install_egg_info
+[0.726s] removing '/home/main/main_ws/install/lib/python3.10/site-packages/main_bringup-0.0.1-py3.10.egg-info' (and everything under it)
+[0.726s] Copying ../../build/main_bringup/main_bringup.egg-info to /home/main/main_ws/install/lib/python3.10/site-packages/main_bringup-0.0.1-py3.10.egg-info
+[0.727s] running install_scripts
+[0.741s] Installing omo_r1_mcu_node script to /home/main/main_ws/install/lib/main_bringup
+[0.741s] Installing omo_r1_motor_setting_node script to /home/main/main_ws/install/lib/main_bringup
+[0.741s] writing list of installed files to '/home/main/main_ws/build/main_bringup/install.log'
+[0.773s] Invoked command in '/home/main/main_ws/src/main_bringup' returned '0': PYTHONPATH=/home/main/main_ws/build/main_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/lib/python3.10/site-packages:/home/main/main_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_bringup build --build-base /home/main/main_ws/build/main_bringup/build install --record /home/main/main_ws/build/main_bringup/install.log --single-version-externally-managed install_data

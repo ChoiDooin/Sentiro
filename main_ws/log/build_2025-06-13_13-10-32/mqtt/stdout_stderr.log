@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/mqtt/mqtt.egg-info/PKG-INFO
+writing dependency_links to ../../build/mqtt/mqtt.egg-info/dependency_links.txt
+writing entry points to ../../build/mqtt/mqtt.egg-info/entry_points.txt
+writing requirements to ../../build/mqtt/mqtt.egg-info/requires.txt
+writing top-level names to ../../build/mqtt/mqtt.egg-info/top_level.txt
+reading manifest file '../../build/mqtt/mqtt.egg-info/SOURCES.txt'
+writing manifest file '../../build/mqtt/mqtt.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/main/main_ws/install/lib/python3.10/site-packages/mqtt-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mqtt/mqtt.egg-info to /home/main/main_ws/install/lib/python3.10/site-packages/mqtt-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sub script to /home/main/main_ws/install/lib/mqtt
+writing list of installed files to '/home/main/main_ws/build/mqtt/install.log'

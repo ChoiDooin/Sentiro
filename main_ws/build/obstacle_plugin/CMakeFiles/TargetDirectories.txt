@@ -1,0 +1,10 @@
+/home/main/main_ws/build/obstacle_plugin/CMakeFiles/uninstall.dir
+/home/main/main_ws/build/obstacle_plugin/CMakeFiles/obstacle_plugin_uninstall.dir
+/home/main/main_ws/build/obstacle_plugin/CMakeFiles/manual_obstacle_layer.dir
+/home/main/main_ws/build/obstacle_plugin/CMakeFiles/test.dir
+/home/main/main_ws/build/obstacle_plugin/CMakeFiles/edit_cache.dir
+/home/main/main_ws/build/obstacle_plugin/CMakeFiles/rebuild_cache.dir
+/home/main/main_ws/build/obstacle_plugin/CMakeFiles/list_install_components.dir
+/home/main/main_ws/build/obstacle_plugin/CMakeFiles/install.dir
+/home/main/main_ws/build/obstacle_plugin/CMakeFiles/install/local.dir
+/home/main/main_ws/build/obstacle_plugin/CMakeFiles/install/strip.dir

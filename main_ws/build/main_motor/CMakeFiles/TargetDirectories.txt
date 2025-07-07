@@ -1,0 +1,12 @@
+/home/main/main_ws/build/main_motor/CMakeFiles/uninstall.dir
+/home/main/main_ws/build/main_motor/CMakeFiles/main_motor_uninstall.dir
+/home/main/main_ws/build/main_motor/CMakeFiles/send_arduino_node.dir
+/home/main/main_ws/build/main_motor/CMakeFiles/main_run_node.dir
+/home/main/main_ws/build/main_motor/CMakeFiles/test_node.dir
+/home/main/main_ws/build/main_motor/CMakeFiles/test.dir
+/home/main/main_ws/build/main_motor/CMakeFiles/edit_cache.dir
+/home/main/main_ws/build/main_motor/CMakeFiles/rebuild_cache.dir
+/home/main/main_ws/build/main_motor/CMakeFiles/list_install_components.dir
+/home/main/main_ws/build/main_motor/CMakeFiles/install.dir
+/home/main/main_ws/build/main_motor/CMakeFiles/install/local.dir
+/home/main/main_ws/build/main_motor/CMakeFiles/install/strip.dir

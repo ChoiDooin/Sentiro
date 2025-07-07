@@ -1,0 +1,261 @@
+[0.020s] Invoking command in '/home/main/main_ws/build/main_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/main_interface -- -j16 -l16
+[0.207s] [ 11%] Built target main_interface__rosidl_generator_c
+[0.208s] [ 12%] Built target main_interface__cpp
+[0.208s] [ 12%] Built target ament_cmake_python_copy_main_interface
+[0.208s] [ 33%] Built target main_interface__rosidl_typesupport_c
+[0.208s] [ 35%] Built target main_interface__rosidl_typesupport_introspection_c
+[0.208s] [ 46%] Built target main_interface__rosidl_typesupport_fastrtps_cpp
+[0.208s] [ 57%] Built target main_interface__rosidl_typesupport_introspection_cpp
+[0.208s] [ 69%] Built target main_interface__rosidl_typesupport_fastrtps_c
+[0.208s] [ 80%] Built target main_interface__rosidl_typesupport_cpp
+[0.208s] [ 80%] Built target main_interface
+[0.208s] [ 81%] Built target main_interface__py
+[0.209s] [ 91%] Built target main_interface__rosidl_generator_py
+[0.209s] [ 94%] Built target main_interface__rosidl_typesupport_introspection_c__pyext
+[0.209s] [100%] Built target main_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.209s] [100%] Built target main_interface__rosidl_typesupport_c__pyext
+[0.242s] running egg_info
+[0.242s] writing main_interface.egg-info/PKG-INFO
+[0.242s] writing dependency_links to main_interface.egg-info/dependency_links.txt
+[0.242s] writing top-level names to main_interface.egg-info/top_level.txt
+[0.242s] reading manifest file 'main_interface.egg-info/SOURCES.txt'
+[0.242s] writing manifest file 'main_interface.egg-info/SOURCES.txt'
+[0.281s] [100%] Built target ament_cmake_python_build_main_interface_egg
+[0.320s] Invoked command in '/home/main/main_ws/build/main_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/main/main_ws/build/main_interface -- -j16 -l16
+[0.321s] Invoking command in '/home/main/main_ws/build/main_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/main_interface
+[0.332s] -- Install configuration: ""
+[0.332s] -- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/rosidl_interfaces/main_interface
+[0.332s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface
+[0.332s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/msg
+[0.332s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/msg/rosidl_generator_c__visibility_control.h
+[0.332s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv
+[0.332s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/reset_odom.h
+[0.332s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/color.h
+[0.332s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/calg.h
+[0.332s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail
+[0.332s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/calg__type_support.h
+[0.333s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/color__functions.h
+[0.333s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/save_color__struct.h
+[0.333s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/calg__functions.h
+[0.333s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/save_color__functions.c
+[0.333s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/onoff__type_support.h
+[0.333s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/battery__functions.h
+[0.333s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/reset_odom__struct.h
+[0.333s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/onoff__functions.c
+[0.333s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/calg__struct.h
+[0.333s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/reset_odom__functions.h
+[0.333s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/color__type_support.h
+[0.333s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/onoff__struct.h
+[0.334s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/save_color__type_support.h
+[0.334s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/save_color__functions.h
+[0.334s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/reset_odom__functions.c
+[0.334s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/battery__struct.h
+[0.335s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/color__struct.h
+[0.335s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/battery__functions.c
+[0.335s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/calg__functions.c
+[0.335s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/reset_odom__type_support.h
+[0.335s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/color__functions.c
+[0.335s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/onoff__functions.h
+[0.335s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/battery__type_support.h
+[0.336s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/battery.h
+[0.336s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/save_color.h
+[0.336s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/onoff.h
+[0.336s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/environment/library_path.sh
+[0.337s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/environment/library_path.dsv
+[0.337s] -- Up-to-date: /home/main/main_ws/install/lib/libmain_interface__rosidl_generator_c.so
+[0.338s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface
+[0.338s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/msg
+[0.338s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.338s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv
+[0.338s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail
+[0.338s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/calg__rosidl_typesupport_fastrtps_c.h
+[0.338s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/onoff__rosidl_typesupport_fastrtps_c.h
+[0.338s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/save_color__rosidl_typesupport_fastrtps_c.h
+[0.338s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/color__rosidl_typesupport_fastrtps_c.h
+[0.338s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/battery__rosidl_typesupport_fastrtps_c.h
+[0.339s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/reset_odom__rosidl_typesupport_fastrtps_c.h
+[0.339s] -- Up-to-date: /home/main/main_ws/install/lib/libmain_interface__rosidl_typesupport_fastrtps_c.so
+[0.339s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface
+[0.339s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/msg
+[0.339s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.340s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv
+[0.340s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail
+[0.340s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/reset_odom__type_support.c
+[0.340s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/reset_odom__rosidl_typesupport_introspection_c.h
+[0.340s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/save_color__rosidl_typesupport_introspection_c.h
+[0.340s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/onoff__rosidl_typesupport_introspection_c.h
+[0.340s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/battery__rosidl_typesupport_introspection_c.h
+[0.340s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/calg__type_support.c
+[0.340s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/color__type_support.c
+[0.340s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/onoff__type_support.c
+[0.340s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/save_color__type_support.c
+[0.340s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/color__rosidl_typesupport_introspection_c.h
+[0.341s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/battery__type_support.c
+[0.341s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/calg__rosidl_typesupport_introspection_c.h
+[0.341s] -- Up-to-date: /home/main/main_ws/install/lib/libmain_interface__rosidl_typesupport_introspection_c.so
+[0.341s] -- Up-to-date: /home/main/main_ws/install/lib/libmain_interface__rosidl_typesupport_c.so
+[0.341s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface
+[0.341s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/msg
+[0.341s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.341s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv
+[0.341s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/battery.hpp
+[0.341s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/save_color.hpp
+[0.341s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/color.hpp
+[0.341s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/onoff.hpp
+[0.341s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/calg__type_support.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/reset_odom__type_support.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/save_color__builder.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/color__struct.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/save_color__struct.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/color__builder.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/battery__builder.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/onoff__type_support.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/battery__type_support.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/reset_odom__traits.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/color__type_support.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/onoff__builder.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/calg__struct.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/battery__traits.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/calg__builder.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/onoff__traits.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/reset_odom__struct.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/calg__traits.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/save_color__type_support.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/color__traits.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/battery__struct.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/reset_odom__builder.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/onoff__struct.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/save_color__traits.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/reset_odom.hpp
+[0.342s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/calg.hpp
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/msg
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/reset_odom__rosidl_typesupport_fastrtps_cpp.hpp
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/dds_fastrtps
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/save_color__rosidl_typesupport_fastrtps_cpp.hpp
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/onoff__rosidl_typesupport_fastrtps_cpp.hpp
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/battery__rosidl_typesupport_fastrtps_cpp.hpp
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/calg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.343s] -- Up-to-date: /home/main/main_ws/install/lib/libmain_interface__rosidl_typesupport_fastrtps_cpp.so
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/calg__rosidl_typesupport_introspection_cpp.hpp
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/calg__type_support.cpp
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/save_color__type_support.cpp
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/battery__type_support.cpp
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/onoff__rosidl_typesupport_introspection_cpp.hpp
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/battery__rosidl_typesupport_introspection_cpp.hpp
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/color__type_support.cpp
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/reset_odom__type_support.cpp
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/onoff__type_support.cpp
+[0.343s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[0.344s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/reset_odom__rosidl_typesupport_introspection_cpp.hpp
+[0.344s] -- Up-to-date: /home/main/main_ws/install/include/main_interface/main_interface/srv/detail/save_color__rosidl_typesupport_introspection_cpp.hpp
+[0.344s] -- Up-to-date: /home/main/main_ws/install/lib/libmain_interface__rosidl_typesupport_introspection_cpp.so
+[0.344s] -- Up-to-date: /home/main/main_ws/install/lib/libmain_interface__rosidl_typesupport_cpp.so
+[0.344s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/environment/pythonpath.sh
+[0.344s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/environment/pythonpath.dsv
+[0.344s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface-0.0.0-py3.10.egg-info
+[0.344s] -- Installing: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface-0.0.0-py3.10.egg-info/top_level.txt
+[0.344s] -- Installing: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[0.344s] -- Installing: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.344s] -- Installing: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.344s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface
+[0.344s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/_main_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.344s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/main_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.344s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/main_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.344s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/_main_interface_s.ep.rosidl_typesupport_introspection_c.c
+[0.344s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/main_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.344s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/__init__.py
+[0.344s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/srv
+[0.344s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/srv/_calg_s.c
+[0.345s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/srv/_reset_odom_s.c
+[0.345s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/srv/_reset_odom.py
+[0.345s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/srv/_battery_s.c
+[0.345s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/srv/_color.py
+[0.345s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/srv/__init__.py
+[0.345s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/srv/_calg.py
+[0.345s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/srv/_color_s.c
+[0.345s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/srv/_battery.py
+[0.345s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/srv/_save_color_s.c
+[0.345s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/srv/_onoff.py
+[0.345s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/srv/_onoff_s.c
+[0.345s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/srv/_save_color.py
+[0.345s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/_main_interface_s.ep.rosidl_typesupport_c.c
+[0.345s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/libmain_interface__rosidl_generator_py.so
+[0.358s] Listing '/home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface'...
+[0.358s] Listing '/home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/srv'...
+[0.362s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/main_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.362s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/main_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.362s] -- Up-to-date: /home/main/main_ws/install/local/lib/python3.10/dist-packages/main_interface/main_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.363s] -- Up-to-date: /home/main/main_ws/install/lib/libmain_interface__rosidl_generator_py.so
+[0.363s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/Battery.idl
+[0.363s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/Calg.idl
+[0.363s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/Color.idl
+[0.363s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/Onoff.idl
+[0.363s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/ResetOdom.idl
+[0.363s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/SaveColor.idl
+[0.363s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/Battery.srv
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/Battery_Request.msg
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/Battery_Response.msg
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/Calg.srv
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/Calg_Request.msg
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/Calg_Response.msg
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/Color.srv
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/Color_Request.msg
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/Color_Response.msg
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/Onoff.srv
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/Onoff_Request.msg
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/Onoff_Response.msg
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/ResetOdom.srv
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/ResetOdom_Request.msg
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/ResetOdom_Response.msg
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/SaveColor.srv
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/SaveColor_Request.msg
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/srv/SaveColor_Response.msg
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/package_run_dependencies/main_interface
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/parent_prefix_path/main_interface
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/environment/ament_prefix_path.sh
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/environment/ament_prefix_path.dsv
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/environment/path.sh
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/environment/path.dsv
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/local_setup.bash
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/local_setup.sh
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/local_setup.zsh
+[0.364s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/local_setup.dsv
+[0.365s] -- Installing: /home/main/main_ws/install/share/main_interface/package.dsv
+[0.365s] -- Up-to-date: /home/main/main_ws/install/share/ament_index/resource_index/packages/main_interface
+[0.365s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/export_main_interface__rosidl_generator_cExport.cmake
+[0.365s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/export_main_interface__rosidl_generator_cExport-noconfig.cmake
+[0.365s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/export_main_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[0.365s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/export_main_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.365s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/main_interface__rosidl_typesupport_introspection_cExport.cmake
+[0.365s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/main_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.365s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/main_interface__rosidl_typesupport_cExport.cmake
+[0.365s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/main_interface__rosidl_typesupport_cExport-noconfig.cmake
+[0.365s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/export_main_interface__rosidl_generator_cppExport.cmake
+[0.365s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/export_main_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.365s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/export_main_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.365s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/main_interface__rosidl_typesupport_introspection_cppExport.cmake
+[0.365s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/main_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.365s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/main_interface__rosidl_typesupport_cppExport.cmake
+[0.366s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/main_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[0.366s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/export_main_interface__rosidl_generator_pyExport.cmake
+[0.366s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/export_main_interface__rosidl_generator_pyExport-noconfig.cmake
+[0.366s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/rosidl_cmake-extras.cmake
+[0.366s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.366s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.366s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/ament_cmake_export_targets-extras.cmake
+[0.366s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.366s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.366s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.366s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/main_interfaceConfig.cmake
+[0.366s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/cmake/main_interfaceConfig-version.cmake
+[0.366s] -- Up-to-date: /home/main/main_ws/install/share/main_interface/package.xml
+[0.429s] Invoked command in '/home/main/main_ws/build/main_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/main/main_ws/build/main_interface
