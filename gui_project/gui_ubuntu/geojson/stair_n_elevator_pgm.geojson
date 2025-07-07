@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "stair_n_elevator_pgm",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 0, "name": "stair" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 55.5, -90.0 ], [ 57.0, -90.0 ], [ 57.0, -98.0 ], [ 55.5, -98.0 ], [ 55.5, -90.0 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": 1, "name": "elevator" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 42.0, -62.0 ], [ 56.0, -62.0 ], [ 56.0, -63.5 ], [ 42.0, -63.5 ], [ 42.0, -62.0 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": 2, "name": "남자 화장실" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 57.0, -112.0 ], [ 57.0, -105.0 ], [ 78.0, -105.0 ], [ 78.0, -120.0 ], [ 57.0, -120.0 ], [ 57.0, -116.0 ], [ 55.5, -116.0 ], [ 55.5, -112.0 ], [ 57.0, -112.0 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": 3, "name": "여자 화장실" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 57.0, -136.0 ], [ 57.0, -130.0 ], [ 78.0, -130.0 ], [ 78.0, -143.0 ], [ 57.0, -143.0 ], [ 57.0, -142.0 ], [ 55.5, -142.0 ], [ 55.5, -136.0 ], [ 57.0, -136.0 ] ] ] ] } }
+]
+}

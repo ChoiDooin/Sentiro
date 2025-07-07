@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "shops_pgm_1F",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 0, "name": "Oliveold" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 42.1, -150.0 ], [ 27.0, -150.0 ], [ 27.0, -62.0 ], [ 42.1, -62.0 ], [ 42.1, -150.0 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": 1, "name": "Besop" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 56.0, -43.0 ], [ 96.0, -43.0 ], [ 96.0, -65.1 ], [ 60.0, -65.1 ], [ 60.0, -66.0 ], [ 56.0, -66.0 ], [ 56.0, -43.0 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": 2, "name": "Vanz" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 101.0, -65.1 ], [ 101.0, -42.0 ], [ 121.0, -42.0 ], [ 121.0, -65.1 ], [ 101.0, -65.1 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": 3, "name": "NICE" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 121.0, -65.1 ], [ 121.0, -42.0 ], [ 150.0, -42.0 ], [ 150.0, -65.1 ], [ 121.0, -65.1 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": 4, "name": "RUSH" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 101.0, -77.9 ], [ 150.0, -77.9 ], [ 150.0, -90.0 ], [ 101.0, -90.0 ], [ 101.0, -77.9 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": 5, "name": "Sagua store" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 57.0, -81.9 ], [ 96.0, -81.9 ], [ 96.0, -90.0 ], [ 57.0, -90.0 ], [ 57.0, -81.9 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": 6, "name": "Star Dabang" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 56.1, -147.0 ], [ 96.0, -147.0 ], [ 96.0, -203.0 ], [ 27.0, -203.0 ], [ 27.0, -182.9 ], [ 56.1, -182.9 ], [ 56.1, -147.0 ] ] ] ] } }
+]
+}
