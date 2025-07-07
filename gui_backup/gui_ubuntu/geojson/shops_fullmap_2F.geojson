@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "shops_fullmap_2F",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 0, "name": "Bent" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 26.0, 46.0 ], [ 26.0, 40.0 ], [ 6.0, 40.0 ], [ 6.0, 46.0 ], [ 26.0, 46.0 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": 1, "name": "HYUNDA" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 9.0, 52.0 ], [ 26.0, 52.0 ], [ 26.0, 48.0 ], [ 9.0, 48.0 ], [ 9.0, 52.0 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": 2, "name": "Oliveryoung" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 9.0, 52.0 ], [ 6.0, 52.0 ], [ 6.0, 69.0 ], [ 9.0, 69.0 ], [ 9.0, 52.0 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": 3, "name": "Daitso" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 0.5, 62.0 ], [ 3.0, 62.0 ], [ 3.0, 40.0 ], [ 0.5, 40.0 ], [ 0.5, 62.0 ] ] ] ] } }
+]
+}

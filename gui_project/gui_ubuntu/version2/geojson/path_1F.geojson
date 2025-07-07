@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "path_112_1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 1.203974571464405, 0.224503816764653 ], [ 3.021080588934891, 0.213224982846682 ], [ 3.006513991618988, -1.009700108321655 ], [ 14.709976889937064, -1.044110110105304 ] ] ] } }
+]
+}
